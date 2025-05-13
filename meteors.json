@@ -1,0 +1,5611 @@
+[
+  {
+    "Id": "20250103_203121",
+    "Observations": [
+      {
+        "StationLongitude": 10.098182,
+        "StationLatitude": 59.090854,
+        "ObservationStartLongitude": 22.82,
+        "ObservationEndLongitude": 36.06,
+        "ObservationStartLatitude": 59.1,
+        "ObservationEndLatitude": 69.55,
+        "StationCode": "LAR",
+        "ObservationStartTime": 1735936282.06
+      },
+      {
+        "StationLongitude": 10.098182,
+        "StationLatitude": 59.090854,
+        "ObservationStartLongitude": 23.34,
+        "ObservationEndLongitude": 33.31,
+        "ObservationStartLatitude": 59.61,
+        "ObservationEndLatitude": 68.11,
+        "StationCode": "LAR",
+        "ObservationStartTime": 1735936281.93
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 181.69,
+        "ObservationEndLongitude": 182.8,
+        "ObservationStartLatitude": 42.09,
+        "ObservationEndLatitude": 32.72,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1735936283.32
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 181.97,
+        "ObservationEndLongitude": 183.0,
+        "ObservationStartLatitude": 39.72,
+        "ObservationEndLatitude": 31.85,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1735936282.32
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 101.6,
+      "EndHeight": 89.8,
+      "StartPositionNorth": 59.62,
+      "StartPositionEast": 10.513,
+      "EndPositionNorth": 59.33,
+      "EndPositionEast": 10.439
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.974,
+      "Eccentricity": 0.538,
+      "Inclination": 69.1,
+      "LongitudeOfAscendingNode": 283.4,
+      "ArgumentOfPerihelion": 166.6,
+      "MeanAnomaly": 3.4
+    }
+  },
+  {
+    "Id": "20250103_060429",
+    "Observations": [
+      {
+        "StationLongitude": 10.098182,
+        "StationLatitude": 59.090854,
+        "ObservationStartLongitude": 322.2,
+        "ObservationEndLongitude": 320.79,
+        "ObservationStartLatitude": 25.86,
+        "ObservationEndLatitude": 14.95,
+        "StationCode": "LAR",
+        "ObservationStartTime": 1735884269.12
+      },
+      {
+        "StationLongitude": 10.098182,
+        "StationLatitude": 59.090854,
+        "ObservationStartLongitude": 321.83,
+        "ObservationEndLongitude": 320.76,
+        "ObservationStartLatitude": 25.21,
+        "ObservationEndLatitude": 17.91,
+        "StationCode": "LAR",
+        "ObservationStartTime": 1735884269.68
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 264.19,
+        "ObservationEndLongitude": 266.72,
+        "ObservationStartLatitude": 31.26,
+        "ObservationEndLatitude": 18.81,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1735884266.96
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 97.5,
+      "EndHeight": 56.1,
+      "StartPositionNorth": 60.434,
+      "StartPositionEast": 7.951,
+      "EndPositionNorth": 60.489,
+      "EndPositionEast": 7.73
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.981,
+      "Eccentricity": 0.651,
+      "Inclination": 74.1,
+      "LongitudeOfAscendingNode": 282.8,
+      "ArgumentOfPerihelion": 174.2,
+      "MeanAnomaly": 0.9
+    }
+  },
+  {
+    "Id": "20250103_192519",
+    "Observations": [
+      {
+        "StationLongitude": 12.60255,
+        "StationLatitude": 61.05661,
+        "ObservationStartLongitude": 331.46,
+        "ObservationEndLongitude": 321.81,
+        "ObservationStartLatitude": 39.09,
+        "ObservationEndLatitude": 42.96,
+        "StationCode": "FIN",
+        "ObservationStartTime": 1735932318.92
+      },
+      {
+        "StationLongitude": 12.60255,
+        "StationLatitude": 61.05661,
+        "ObservationStartLongitude": 329.78,
+        "ObservationEndLongitude": 321.49,
+        "ObservationStartLatitude": 39.81,
+        "ObservationEndLatitude": 43.03,
+        "StationCode": "FIN",
+        "ObservationStartTime": 1735932318.96
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 77.14,
+        "ObservationEndLongitude": 81.9,
+        "ObservationStartLatitude": 29.0,
+        "ObservationEndLatitude": 30.31,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1735932319.32
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 34.7,
+      "EndHeight": 38.1,
+      "StartPositionNorth": 61.387,
+      "StartPositionEast": 12.227,
+      "EndPositionNorth": 60.675,
+      "EndPositionEast": 11.719
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.983,
+      "Eccentricity": 7.264,
+      "Inclination": 22.4,
+      "LongitudeOfAscendingNode": 103.3,
+      "ArgumentOfPerihelion": 359.7,
+      "MeanAnomaly": 1.8
+    }
+  },
+  {
+    "Id": "20250103_211811",
+    "Observations": [
+      {
+        "StationLongitude": 7.96403523,
+        "StationLatitude": 58.0945324,
+        "ObservationStartLongitude": 353.87,
+        "ObservationEndLongitude": 343.83,
+        "ObservationStartLatitude": 42.42,
+        "ObservationEndLatitude": 49.17,
+        "StationCode": "KRI",
+        "ObservationStartTime": 1735939091.56
+      },
+      {
+        "StationLongitude": 10.098182,
+        "StationLatitude": 59.090854,
+        "ObservationStartLongitude": 267.49,
+        "ObservationEndLongitude": 256.56,
+        "ObservationStartLatitude": 35.79,
+        "ObservationEndLatitude": 30.48,
+        "StationCode": "LAR",
+        "ObservationStartTime": 1735939091.79
+      },
+      {
+        "StationLongitude": 12.60255,
+        "StationLatitude": 61.05661,
+        "ObservationStartLongitude": 231.41,
+        "ObservationEndLongitude": 229.17,
+        "ObservationStartLatitude": 13.41,
+        "ObservationEndLatitude": 11.03,
+        "StationCode": "FIN",
+        "ObservationStartTime": 1735939091.84
+      },
+      {
+        "StationLongitude": 10.7517887,
+        "StationLatitude": 60.2119374,
+        "ObservationStartLongitude": 233.47,
+        "ObservationEndLongitude": 227.9,
+        "ObservationStartLatitude": 23.74,
+        "ObservationEndLatitude": 17.56,
+        "StationCode": "HAR",
+        "ObservationStartTime": 1735939091.92
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 223.51,
+        "ObservationEndLongitude": 219.8,
+        "ObservationStartLatitude": 21.73,
+        "ObservationEndLatitude": 16.16,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1735939092.24
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 105.8,
+      "EndHeight": 87.3,
+      "StartPositionNorth": 59.103,
+      "StartPositionEast": 7.752,
+      "EndPositionNorth": 58.641,
+      "EndPositionEast": 7.511
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.975,
+      "Eccentricity": 0.589,
+      "Inclination": 72.9,
+      "LongitudeOfAscendingNode": 283.4,
+      "ArgumentOfPerihelion": 167.5,
+      "MeanAnomaly": 2.6
+    }
+  },
+  {
+    "Id": "20250103_203951",
+    "Observations": [
+      {
+        "StationLongitude": 10.7517887,
+        "StationLatitude": 60.2119374,
+        "ObservationStartLongitude": 308.9,
+        "ObservationEndLongitude": 296.95,
+        "ObservationStartLatitude": 30.51,
+        "ObservationEndLatitude": 29.09,
+        "StationCode": "HAR",
+        "ObservationStartTime": 1735936791.8
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 298.71,
+        "ObservationEndLongitude": 280.32,
+        "ObservationStartLatitude": 36.66,
+        "ObservationEndLatitude": 33.47,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1735936791.56
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 102.5,
+      "EndHeight": 86.1,
+      "StartPositionNorth": 61.157,
+      "StartPositionEast": 8.399,
+      "EndPositionNorth": 60.783,
+      "EndPositionEast": 8.293
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.976,
+      "Eccentricity": 0.672,
+      "Inclination": 72.0,
+      "LongitudeOfAscendingNode": 283.4,
+      "ArgumentOfPerihelion": 169.0,
+      "MeanAnomaly": 1.6
+    }
+  },
+  {
+    "Id": "20250103_192040",
+    "Observations": [
+      {
+        "StationLongitude": 12.60255,
+        "StationLatitude": 61.05661,
+        "ObservationStartLongitude": 164.46,
+        "ObservationEndLongitude": 165.45,
+        "ObservationStartLatitude": 17.78,
+        "ObservationEndLatitude": 14.73,
+        "StationCode": "FIN",
+        "ObservationStartTime": 1735932038.84
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 136.53,
+        "ObservationEndLongitude": 140.04,
+        "ObservationStartLatitude": 17.79,
+        "ObservationEndLatitude": 14.54,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1735932039.84
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 96.3,
+      "EndHeight": 86.0,
+      "StartPositionNorth": 58.76,
+      "StartPositionEast": 13.851,
+      "EndPositionNorth": 58.479,
+      "EndPositionEast": 13.876
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.973,
+      "Eccentricity": 0.618,
+      "Inclination": 71.1,
+      "LongitudeOfAscendingNode": 283.3,
+      "ArgumentOfPerihelion": 166.3,
+      "MeanAnomaly": 2.6
+    }
+  },
+  {
+    "Id": "20250103_164919",
+    "Observations": [
+      {
+        "StationLongitude": 14.6447,
+        "StationLatitude": 60.2411,
+        "ObservationStartLongitude": 232.0,
+        "ObservationEndLongitude": 219.6,
+        "ObservationStartLatitude": 32.4,
+        "ObservationEndLatitude": 26.3,
+        "StationCode": "HBRG",
+        "ObservationStartTime": 1735922959.96
+      },
+      {
+        "StationLongitude": 10.098182,
+        "StationLatitude": 59.090854,
+        "ObservationStartLongitude": 71.93,
+        "ObservationEndLongitude": 86.86,
+        "ObservationStartLatitude": 32.19,
+        "ObservationEndLatitude": 23.87,
+        "StationCode": "LAR",
+        "ObservationStartTime": 1735922959.46
+      },
+      {
+        "StationLongitude": 12.60255,
+        "StationLatitude": 61.05661,
+        "ObservationStartLongitude": 180.12,
+        "ObservationEndLongitude": 173.68,
+        "ObservationStartLatitude": 29.33,
+        "ObservationEndLatitude": 18.26,
+        "StationCode": "FIN",
+        "ObservationStartTime": 1735922959.96
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 99.6,
+      "EndHeight": 75.6,
+      "StartPositionNorth": 59.522,
+      "StartPositionEast": 12.585,
+      "EndPositionNorth": 59.131,
+      "EndPositionEast": 13.008
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.977,
+      "Eccentricity": 0.639,
+      "Inclination": 70.2,
+      "LongitudeOfAscendingNode": 283.2,
+      "ArgumentOfPerihelion": 169.5,
+      "MeanAnomaly": 1.8
+    }
+  },
+  {
+    "Id": "20250103_192039",
+    "Observations": [
+      {
+        "StationLongitude": 7.96403523,
+        "StationLatitude": 58.0945324,
+        "ObservationStartLongitude": 109.12,
+        "ObservationEndLongitude": 117.02,
+        "ObservationStartLatitude": 31.31,
+        "ObservationEndLatitude": 27.25,
+        "StationCode": "KRI",
+        "ObservationStartTime": 1735932040.48
+      },
+      {
+        "StationLongitude": 7.96403523,
+        "StationLatitude": 58.0945324,
+        "ObservationStartLongitude": 109.58,
+        "ObservationEndLongitude": 117.25,
+        "ObservationStartLatitude": 31.2,
+        "ObservationEndLatitude": 27.15,
+        "StationCode": "KRI",
+        "ObservationStartTime": 1735932040.16
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 280.8,
+      "EndHeight": 281.0,
+      "StartPositionNorth": 56.542,
+      "StartPositionEast": 16.34,
+      "EndPositionNorth": 55.397,
+      "EndPositionEast": 16.916
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.901,
+      "Eccentricity": 35.485,
+      "Inclination": 53.7,
+      "LongitudeOfAscendingNode": 103.3,
+      "ArgumentOfPerihelion": 24.0,
+      "MeanAnomaly": -854.0
+    }
+  },
+  {
+    "Id": "20250103_164950",
+    "Observations": [
+      {
+        "StationLongitude": 10.7517887,
+        "StationLatitude": 60.2119374,
+        "ObservationStartLongitude": 216.9,
+        "ObservationEndLongitude": 210.17,
+        "ObservationStartLatitude": 39.19,
+        "ObservationEndLatitude": 35.0,
+        "StationCode": "HAR",
+        "ObservationStartTime": 1735922990.88
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 203.32,
+        "ObservationEndLongitude": 197.78,
+        "ObservationStartLatitude": 32.14,
+        "ObservationEndLatitude": 27.24,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1735922989.8
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 98.6,
+      "EndHeight": 87.5,
+      "StartPositionNorth": 59.364,
+      "StartPositionEast": 9.514,
+      "EndPositionNorth": 59.206,
+      "EndPositionEast": 9.699
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.972,
+      "Eccentricity": 0.17,
+      "Inclination": 56.2,
+      "LongitudeOfAscendingNode": 283.2,
+      "ArgumentOfPerihelion": 156.9,
+      "MeanAnomaly": 16.3
+    }
+  },
+  {
+    "Id": "20250103_185452",
+    "Observations": [
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 68.14,
+        "ObservationEndLongitude": 82.99,
+        "ObservationStartLatitude": 40.76,
+        "ObservationEndLatitude": 38.1,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1735930491.84
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 100.6,
+      "EndHeight": 89.3,
+      "StartPositionNorth": 60.965,
+      "StartPositionEast": 12.511,
+      "EndPositionNorth": 60.697,
+      "EndPositionEast": 12.592
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.971,
+      "Eccentricity": 0.595,
+      "Inclination": 70.8,
+      "LongitudeOfAscendingNode": 283.3,
+      "ArgumentOfPerihelion": 165.2,
+      "MeanAnomaly": 3.0
+    }
+  },
+  {
+    "Id": "20250103_195206",
+    "Observations": [
+      {
+        "StationLongitude": 12.60255,
+        "StationLatitude": 61.05661,
+        "ObservationStartLongitude": 51.83,
+        "ObservationEndLongitude": 61.17,
+        "ObservationStartLatitude": 34.1,
+        "ObservationEndLatitude": 34.29,
+        "StationCode": "FIN",
+        "ObservationStartTime": 1735933925.76
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 57.58,
+        "ObservationEndLongitude": 62.02,
+        "ObservationStartLatitude": 18.81,
+        "ObservationEndLatitude": 17.92,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1735933926.4
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 94.0,
+      "EndHeight": 84.0,
+      "StartPositionNorth": 61.788,
+      "StartPositionEast": 14.607,
+      "EndPositionNorth": 61.557,
+      "EndPositionEast": 14.579
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.971,
+      "Eccentricity": 0.53,
+      "Inclination": 69.3,
+      "LongitudeOfAscendingNode": 283.3,
+      "ArgumentOfPerihelion": 164.8,
+      "MeanAnomaly": 4.0
+    }
+  },
+  {
+    "Id": "20250103_211657",
+    "Observations": [
+      {
+        "StationLongitude": 12.60255,
+        "StationLatitude": 61.05661,
+        "ObservationStartLongitude": 243.45,
+        "ObservationEndLongitude": 246.75,
+        "ObservationStartLatitude": 35.83,
+        "ObservationEndLatitude": 34.96,
+        "StationCode": "FIN",
+        "ObservationStartTime": 1735939017.48
+      },
+      {
+        "StationLongitude": 10.7517887,
+        "StationLatitude": 60.2119374,
+        "ObservationStartLongitude": 22.47,
+        "ObservationEndLongitude": 22.2,
+        "ObservationStartLatitude": 48.99,
+        "ObservationEndLatitude": 41.56,
+        "StationCode": "HAR",
+        "ObservationStartTime": 1735939018.96
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 66.5,
+      "EndHeight": 59.3,
+      "StartPositionNorth": 60.681,
+      "StartPositionEast": 11.148,
+      "EndPositionNorth": 60.756,
+      "EndPositionEast": 11.206
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.97,
+      "Eccentricity": 0.341,
+      "Inclination": 4.3,
+      "LongitudeOfAscendingNode": 103.4,
+      "ArgumentOfPerihelion": 18.5,
+      "MeanAnomaly": 351.4
+    }
+  },
+  {
+    "Id": "20250103_221907",
+    "Observations": [
+      {
+        "StationLongitude": 7.96403523,
+        "StationLatitude": 58.0945324,
+        "ObservationStartLongitude": 74.15,
+        "ObservationEndLongitude": 82.05,
+        "ObservationStartLatitude": 28.33,
+        "ObservationEndLatitude": 27.32,
+        "StationCode": "KRI",
+        "ObservationStartTime": 1735942746.28
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 98.1,
+      "EndHeight": 83.8,
+      "StartPositionNorth": 58.491,
+      "StartPositionEast": 10.851,
+      "EndPositionNorth": 58.26,
+      "EndPositionEast": 10.609
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.983,
+      "Eccentricity": 0.653,
+      "Inclination": 72.6,
+      "LongitudeOfAscendingNode": 283.5,
+      "ArgumentOfPerihelion": 179.7,
+      "MeanAnomaly": 0.0
+    }
+  },
+  {
+    "Id": "20250103_194735",
+    "Observations": [
+      {
+        "StationLongitude": 14.6447,
+        "StationLatitude": 60.2411,
+        "ObservationStartLongitude": 88.8,
+        "ObservationEndLongitude": 106.4,
+        "ObservationStartLatitude": 44.6,
+        "ObservationEndLatitude": 40.4,
+        "StationCode": "HBRG",
+        "ObservationStartTime": 1735933655.5
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 94.41,
+        "ObservationEndLongitude": 99.15,
+        "ObservationStartLatitude": 15.23,
+        "ObservationEndLatitude": 13.4,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1735933655.36
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 97.9,
+      "EndHeight": 86.4,
+      "StartPositionNorth": 60.249,
+      "StartPositionEast": 16.39,
+      "EndPositionNorth": 59.98,
+      "EndPositionEast": 16.343
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.978,
+      "Eccentricity": 0.552,
+      "Inclination": 69.9,
+      "LongitudeOfAscendingNode": 283.3,
+      "ArgumentOfPerihelion": 170.1,
+      "MeanAnomaly": 2.4
+    }
+  },
+  {
+    "Id": "20250103_194955",
+    "Observations": [
+      {
+        "StationLongitude": 10.098182,
+        "StationLatitude": 59.090854,
+        "ObservationStartLongitude": 117.68,
+        "ObservationEndLongitude": 130.25,
+        "ObservationStartLatitude": 46.61,
+        "ObservationEndLatitude": 39.39,
+        "StationCode": "LAR",
+        "ObservationStartTime": 1735933795.66
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 165.58,
+        "ObservationEndLongitude": 167.88,
+        "ObservationStartLatitude": 24.98,
+        "ObservationEndLatitude": 18.23,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1735933796.0
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 99.6,
+      "EndHeight": 85.5,
+      "StartPositionNorth": 58.834,
+      "StartPositionEast": 11.443,
+      "EndPositionNorth": 58.48,
+      "EndPositionEast": 11.437
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.977,
+      "Eccentricity": 0.726,
+      "Inclination": 71.2,
+      "LongitudeOfAscendingNode": 283.3,
+      "ArgumentOfPerihelion": 169.9,
+      "MeanAnomaly": 1.1
+    }
+  },
+  {
+    "Id": "20250103_222526",
+    "Observations": [
+      {
+        "StationLongitude": 10.098182,
+        "StationLatitude": 59.090854,
+        "ObservationStartLongitude": 24.4,
+        "ObservationEndLongitude": 22.66,
+        "ObservationStartLatitude": 56.04,
+        "ObservationEndLatitude": 66.85,
+        "StationCode": "LAR",
+        "ObservationStartTime": 1735943126.26
+      },
+      {
+        "StationLongitude": 10.098182,
+        "StationLatitude": 59.090854,
+        "ObservationStartLongitude": 24.2,
+        "ObservationEndLongitude": 22.87,
+        "ObservationStartLatitude": 57.23,
+        "ObservationEndLatitude": 65.51,
+        "StationCode": "LAR",
+        "ObservationStartTime": 1735943126.4
+      },
+      {
+        "StationLongitude": 12.60255,
+        "StationLatitude": 61.05661,
+        "ObservationStartLongitude": 215.8,
+        "ObservationEndLongitude": 215.04,
+        "ObservationStartLatitude": 26.02,
+        "ObservationEndLatitude": 20.71,
+        "StationCode": "FIN",
+        "ObservationStartTime": 1735943126.68
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 180.34,
+        "ObservationEndLongitude": 185.39,
+        "ObservationStartLatitude": 41.47,
+        "ObservationEndLatitude": 32.1,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1735943127.24
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 180.88,
+        "ObservationEndLongitude": 185.23,
+        "ObservationStartLatitude": 39.9,
+        "ObservationEndLatitude": 32.03,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1735943127.68
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 102.1,
+      "EndHeight": 87.2,
+      "StartPositionNorth": 59.641,
+      "StartPositionEast": 10.594,
+      "EndPositionNorth": 59.395,
+      "EndPositionEast": 10.348
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.981,
+      "Eccentricity": 0.755,
+      "Inclination": 71.6,
+      "LongitudeOfAscendingNode": 283.5,
+      "ArgumentOfPerihelion": 173.6,
+      "MeanAnomaly": 0.6
+    }
+  },
+  {
+    "Id": "20250103_025326",
+    "Observations": [
+      {
+        "StationLongitude": 10.7517887,
+        "StationLatitude": 60.2119374,
+        "ObservationStartLongitude": 177.24,
+        "ObservationEndLongitude": 218.11,
+        "ObservationStartLatitude": 78.6,
+        "ObservationEndLatitude": 65.18,
+        "StationCode": "HAR",
+        "ObservationStartTime": 1735872807.52
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 171.7,
+        "ObservationEndLongitude": 188.74,
+        "ObservationStartLatitude": 56.74,
+        "ObservationEndLatitude": 46.31,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1735872806.4
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 103.4,
+      "EndHeight": 75.9,
+      "StartPositionNorth": 60.029,
+      "StartPositionEast": 10.769,
+      "EndPositionNorth": 59.968,
+      "EndPositionEast": 10.372
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.98,
+      "Eccentricity": 0.659,
+      "Inclination": 73.8,
+      "LongitudeOfAscendingNode": 282.6,
+      "ArgumentOfPerihelion": 173.0,
+      "MeanAnomaly": 1.1
+    }
+  },
+  {
+    "Id": "20250103_040939",
+    "Observations": [
+      {
+        "StationLongitude": 10.098182,
+        "StationLatitude": 59.090854,
+        "ObservationStartLongitude": 318.33,
+        "ObservationEndLongitude": 317.63,
+        "ObservationStartLatitude": 21.94,
+        "ObservationEndLatitude": 20.63,
+        "StationCode": "LAR",
+        "ObservationStartTime": 1735877380.92
+      },
+      {
+        "StationLongitude": 10.649639,
+        "StationLatitude": 59.97056,
+        "ObservationStartLongitude": 289.59,
+        "ObservationEndLongitude": 288.01,
+        "ObservationStartLatitude": 29.27,
+        "ObservationEndLatitude": 22.24,
+        "StationCode": "OSL",
+        "ObservationStartTime": 1735877379.04
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 98.2,
+      "EndHeight": 78.1,
+      "StartPositionNorth": 60.446,
+      "StartPositionEast": 7.771,
+      "EndPositionNorth": 60.438,
+      "EndPositionEast": 7.509
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.766,
+      "Eccentricity": 0.142,
+      "Inclination": 48.5,
+      "LongitudeOfAscendingNode": 282.7,
+      "ArgumentOfPerihelion": 39.2,
+      "MeanAnomaly": 129.6
+    }
+  },
+  {
+    "Id": "20250103_205552",
+    "Observations": [
+      {
+        "StationLongitude": 7.96403523,
+        "StationLatitude": 58.0945324,
+        "ObservationStartLongitude": 77.1,
+        "ObservationEndLongitude": 94.68,
+        "ObservationStartLatitude": 34.62,
+        "ObservationEndLatitude": 32.31,
+        "StationCode": "KRI",
+        "ObservationStartTime": 1735937752.72
+      },
+      {
+        "StationLongitude": 10.098182,
+        "StationLatitude": 59.090854,
+        "ObservationStartLongitude": 172.22,
+        "ObservationEndLongitude": 177.51,
+        "ObservationStartLatitude": 47.9,
+        "ObservationEndLatitude": 34.86,
+        "StationCode": "LAR",
+        "ObservationStartTime": 1735937752.79
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 100.5,
+      "EndHeight": 85.5,
+      "StartPositionNorth": 58.356,
+      "StartPositionEast": 10.316,
+      "EndPositionNorth": 57.979,
+      "EndPositionEast": 10.177
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.974,
+      "Eccentricity": 0.617,
+      "Inclination": 69.9,
+      "LongitudeOfAscendingNode": 283.4,
+      "ArgumentOfPerihelion": 167.5,
+      "MeanAnomaly": 2.3
+    }
+  },
+  {
+    "Id": "20250103_194819",
+    "Observations": [
+      {
+        "StationLongitude": 10.098182,
+        "StationLatitude": 59.090854,
+        "ObservationStartLongitude": 21.63,
+        "ObservationEndLongitude": 24.44,
+        "ObservationStartLatitude": 22.07,
+        "ObservationEndLatitude": 22.19,
+        "StationCode": "LAR",
+        "ObservationStartTime": 1735933699.26
+      },
+      {
+        "StationLongitude": 12.60255,
+        "StationLatitude": 61.05661,
+        "ObservationStartLongitude": 13.35,
+        "ObservationEndLongitude": 19.76,
+        "ObservationStartLatitude": 58.19,
+        "ObservationEndLatitude": 57.0,
+        "StationCode": "FIN",
+        "ObservationStartTime": 1735933697.8
+      },
+      {
+        "StationLongitude": 10.7517887,
+        "StationLatitude": 60.2119374,
+        "ObservationStartLongitude": 25.85,
+        "ObservationEndLongitude": 42.71,
+        "ObservationStartLatitude": 42.06,
+        "ObservationEndLatitude": 49.28,
+        "StationCode": "HAR",
+        "ObservationStartTime": 1735933700.04
+      },
+      {
+        "StationLongitude": 10.7517887,
+        "StationLatitude": 60.2119374,
+        "ObservationStartLongitude": 26.29,
+        "ObservationEndLongitude": 38.91,
+        "ObservationStartLatitude": 42.23,
+        "ObservationEndLatitude": 48.04,
+        "StationCode": "HAR",
+        "ObservationStartTime": 1735933700.08
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 0.8,
+      "EndHeight": 247.3,
+      "StartPositionNorth": 60.212,
+      "StartPositionEast": 10.741,
+      "EndPositionNorth": 62.383,
+      "EndPositionEast": 13.553
+    },
+    "OrbitalData": null
+  },
+  {
+    "Id": "20250103_221906",
+    "Observations": [
+      {
+        "StationLongitude": 10.098182,
+        "StationLatitude": 59.090854,
+        "ObservationStartLongitude": 149.16,
+        "ObservationEndLongitude": 161.38,
+        "ObservationStartLatitude": 48.93,
+        "ObservationEndLatitude": 40.58,
+        "StationCode": "LAR",
+        "ObservationStartTime": 1735942746.2
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 176.79,
+        "ObservationEndLongitude": 179.49,
+        "ObservationStartLatitude": 20.23,
+        "ObservationEndLatitude": 16.44,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1735942747.64
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 98.8,
+      "EndHeight": 86.1,
+      "StartPositionNorth": 58.439,
+      "StartPositionEast": 10.838,
+      "EndPositionNorth": 58.197,
+      "EndPositionEast": 10.61
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.977,
+      "Eccentricity": 0.689,
+      "Inclination": 72.4,
+      "LongitudeOfAscendingNode": 283.5,
+      "ArgumentOfPerihelion": 170.1,
+      "MeanAnomaly": 1.3
+    }
+  },
+  {
+    "Id": "20250103_192823",
+    "Observations": [
+      {
+        "StationLongitude": 12.60255,
+        "StationLatitude": 61.05661,
+        "ObservationStartLongitude": 258.8,
+        "ObservationEndLongitude": 254.49,
+        "ObservationStartLatitude": 19.07,
+        "ObservationEndLatitude": 17.23,
+        "StationCode": "FIN",
+        "ObservationStartTime": 1735932504.6
+      },
+      {
+        "StationLongitude": 10.649639,
+        "StationLatitude": 59.97056,
+        "ObservationStartLongitude": 294.58,
+        "ObservationEndLongitude": 286.36,
+        "ObservationStartLatitude": 29.88,
+        "ObservationEndLatitude": 28.86,
+        "StationCode": "OSL",
+        "ObservationStartTime": 1735932504.12
+      },
+      {
+        "StationLongitude": 10.7517887,
+        "StationLatitude": 60.2119374,
+        "ObservationStartLongitude": 285.29,
+        "ObservationEndLongitude": 274.51,
+        "ObservationStartLatitude": 30.75,
+        "ObservationEndLatitude": 28.62,
+        "StationCode": "HAR",
+        "ObservationStartTime": 1735932503.52
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 269.82,
+        "ObservationEndLongitude": 256.6,
+        "ObservationStartLatitude": 33.43,
+        "ObservationEndLatitude": 29.47,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1735932504.44
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 99.1,
+      "EndHeight": 85.0,
+      "StartPositionNorth": 60.57,
+      "StartPositionEast": 7.933,
+      "EndPositionNorth": 60.274,
+      "EndPositionEast": 8.025
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.974,
+      "Eccentricity": 0.845,
+      "Inclination": 68.7,
+      "LongitudeOfAscendingNode": 283.3,
+      "ArgumentOfPerihelion": 168.1,
+      "MeanAnomaly": 0.5
+    }
+  },
+  {
+    "Id": "20250103_225237",
+    "Observations": [
+      {
+        "StationLongitude": 12.60255,
+        "StationLatitude": 61.05661,
+        "ObservationStartLongitude": 280.05,
+        "ObservationEndLongitude": 275.28,
+        "ObservationStartLatitude": 16.86,
+        "ObservationEndLatitude": 13.76,
+        "StationCode": "FIN",
+        "ObservationStartTime": 1735944757.92
+      },
+      {
+        "StationLongitude": 10.649639,
+        "StationLatitude": 59.97056,
+        "ObservationStartLongitude": 313.75,
+        "ObservationEndLongitude": 306.89,
+        "ObservationStartLatitude": 20.27,
+        "ObservationEndLatitude": 17.55,
+        "StationCode": "OSL",
+        "ObservationStartTime": 1735944756.84
+      },
+      {
+        "StationLongitude": 10.7517887,
+        "StationLatitude": 60.2119374,
+        "ObservationStartLongitude": 307.03,
+        "ObservationEndLongitude": 299.56,
+        "ObservationStartLatitude": 21.22,
+        "ObservationEndLatitude": 18.1,
+        "StationCode": "HAR",
+        "ObservationStartTime": 1735944756.16
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 301.37,
+        "ObservationEndLongitude": 290.8,
+        "ObservationStartLatitude": 25.7,
+        "ObservationEndLatitude": 20.9,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1735944756.12
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 98.0,
+      "EndHeight": 78.7,
+      "StartPositionNorth": 61.469,
+      "StartPositionEast": 7.466,
+      "EndPositionNorth": 61.164,
+      "EndPositionEast": 7.106
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.974,
+      "Eccentricity": 0.606,
+      "Inclination": 70.2,
+      "LongitudeOfAscendingNode": 283.5,
+      "ArgumentOfPerihelion": 167.3,
+      "MeanAnomaly": 2.5
+    }
+  },
+  {
+    "Id": "20250103_184012",
+    "Observations": [
+      {
+        "StationLongitude": 10.098182,
+        "StationLatitude": 59.090854,
+        "ObservationStartLongitude": 242.08,
+        "ObservationEndLongitude": 223.64,
+        "ObservationStartLatitude": 35.21,
+        "ObservationEndLatitude": 25.1,
+        "StationCode": "LAR",
+        "ObservationStartTime": 1735929612.13
+      },
+      {
+        "StationLongitude": 12.60255,
+        "StationLatitude": 61.05661,
+        "ObservationStartLongitude": 221.68,
+        "ObservationEndLongitude": 219.08,
+        "ObservationStartLatitude": 11.18,
+        "ObservationEndLatitude": 9.37,
+        "StationCode": "FIN",
+        "ObservationStartTime": 1735929613.24
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 102.5,
+      "EndHeight": 81.5,
+      "StartPositionNorth": 58.481,
+      "StartPositionEast": 7.964,
+      "EndPositionNorth": 57.989,
+      "EndPositionEast": 8.147
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.982,
+      "Eccentricity": 0.696,
+      "Inclination": 72.7,
+      "LongitudeOfAscendingNode": 283.3,
+      "ArgumentOfPerihelion": 175.0,
+      "MeanAnomaly": 0.6
+    }
+  },
+  {
+    "Id": "20250103_030235",
+    "Observations": [
+      {
+        "StationLongitude": 10.649639,
+        "StationLatitude": 59.97056,
+        "ObservationStartLongitude": 333.64,
+        "ObservationEndLongitude": 326.29,
+        "ObservationStartLatitude": 28.94,
+        "ObservationEndLatitude": 20.19,
+        "StationCode": "OSL",
+        "ObservationStartTime": 1735873355.4
+      },
+      {
+        "StationLongitude": 10.7517887,
+        "StationLatitude": 60.2119374,
+        "ObservationStartLongitude": 327.88,
+        "ObservationEndLongitude": 318.92,
+        "ObservationStartLatitude": 32.48,
+        "ObservationEndLatitude": 21.36,
+        "StationCode": "HAR",
+        "ObservationStartTime": 1735873357.52
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 19.14,
+        "ObservationEndLongitude": 8.42,
+        "ObservationStartLatitude": 40.14,
+        "ObservationEndLatitude": 27.41,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1735873355.92
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": -19.4,
+      "EndHeight": 46.7,
+      "StartPositionNorth": 60.349,
+      "StartPositionEast": 10.455,
+      "EndPositionNorth": 60.631,
+      "EndPositionEast": 9.991
+    },
+    "OrbitalData": null
+  },
+  {
+    "Id": "20250103_210052",
+    "Observations": [
+      {
+        "StationLongitude": 10.098182,
+        "StationLatitude": 59.090854,
+        "ObservationStartLongitude": 308.95,
+        "ObservationEndLongitude": 284.57,
+        "ObservationStartLatitude": 65.25,
+        "ObservationEndLatitude": 64.78,
+        "StationCode": "LAR",
+        "ObservationStartTime": 1735938052.79
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 204.19,
+        "ObservationEndLongitude": 202.76,
+        "ObservationStartLatitude": 31.45,
+        "ObservationEndLatitude": 24.54,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1735938053.64
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 103.6,
+      "EndHeight": 85.2,
+      "StartPositionNorth": 59.354,
+      "StartPositionEast": 9.456,
+      "EndPositionNorth": 59.122,
+      "EndPositionEast": 9.367
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.97,
+      "Eccentricity": 0.629,
+      "Inclination": 56.7,
+      "LongitudeOfAscendingNode": 283.4,
+      "ArgumentOfPerihelion": 195.0,
+      "MeanAnomaly": 357.3
+    }
+  },
+  {
+    "Id": "20250131_020424",
+    "Observations": [
+      {
+        "StationLongitude": 10.098182,
+        "StationLatitude": 59.090854,
+        "ObservationStartLongitude": 0.35,
+        "ObservationEndLongitude": 1.89,
+        "ObservationStartLatitude": 39.28,
+        "ObservationEndLatitude": 37.08,
+        "StationCode": "LAR",
+        "ObservationStartTime": 1738289063.24
+      },
+      {
+        "StationLongitude": 10.7517887,
+        "StationLatitude": 60.2119374,
+        "ObservationStartLongitude": 240.01,
+        "ObservationEndLongitude": 234.36,
+        "ObservationStartLatitude": 64.49,
+        "ObservationEndLatitude": 62.39,
+        "StationCode": "HAR",
+        "ObservationStartTime": 1738289064.88
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 89.9,
+      "EndHeight": 74.5,
+      "StartPositionNorth": 60.055,
+      "StartPositionEast": 10.11,
+      "EndPositionNorth": 60.011,
+      "EndPositionEast": 10.195
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.919,
+      "Eccentricity": 0.666,
+      "Inclination": 17.1,
+      "LongitudeOfAscendingNode": 311.1,
+      "ArgumentOfPerihelion": 213.8,
+      "MeanAnomaly": 354.7
+    }
+  },
+  {
+    "Id": "20250131_170640",
+    "Observations": [
+      {
+        "StationLongitude": 11.53971,
+        "StationLatitude": 60.73471,
+        "ObservationStartLongitude": 116.21,
+        "ObservationEndLongitude": 119.75,
+        "ObservationStartLatitude": 46.74,
+        "ObservationEndLatitude": 36.59,
+        "StationCode": "LOT",
+        "ObservationStartTime": 1738343201.44
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 99.62,
+        "ObservationEndLongitude": 104.63,
+        "ObservationStartLatitude": 34.51,
+        "ObservationEndLatitude": 25.88,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1738343201.0
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 95.9,
+      "EndHeight": 77.8,
+      "StartPositionNorth": 60.377,
+      "StartPositionEast": 12.974,
+      "EndPositionNorth": 60.224,
+      "EndPositionEast": 13.254
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.942,
+      "Eccentricity": 0.483,
+      "Inclination": 33.2,
+      "LongitudeOfAscendingNode": 311.7,
+      "ArgumentOfPerihelion": 150.0,
+      "MeanAnomaly": 9.4
+    }
+  },
+  {
+    "Id": "20250131_002322",
+    "Observations": [
+      {
+        "StationLongitude": 7.96403523,
+        "StationLatitude": 58.0945324,
+        "ObservationStartLongitude": 66.19,
+        "ObservationEndLongitude": 71.08,
+        "ObservationStartLatitude": 49.77,
+        "ObservationEndLatitude": 48.9,
+        "StationCode": "KRI",
+        "ObservationStartTime": 1738283002.88
+      },
+      {
+        "StationLongitude": 10.098182,
+        "StationLatitude": 59.090854,
+        "ObservationStartLongitude": 214.88,
+        "ObservationEndLongitude": 214.31,
+        "ObservationStartLatitude": 41.82,
+        "ObservationEndLatitude": 35.53,
+        "StationCode": "LAR",
+        "ObservationStartTime": 1738283002.28
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 90.2,
+      "EndHeight": 79.0,
+      "StartPositionNorth": 58.361,
+      "StartPositionEast": 9.135,
+      "EndPositionNorth": 58.286,
+      "EndPositionEast": 9.06
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.981,
+      "Eccentricity": 0.545,
+      "Inclination": 35.6,
+      "LongitudeOfAscendingNode": 311.0,
+      "ArgumentOfPerihelion": 189.3,
+      "MeanAnomaly": 357.7
+    }
+  },
+  {
+    "Id": "20250131_221322",
+    "Observations": [
+      {
+        "StationLongitude": 12.60255,
+        "StationLatitude": 61.05661,
+        "ObservationStartLongitude": 227.71,
+        "ObservationEndLongitude": 236.85,
+        "ObservationStartLatitude": 48.05,
+        "ObservationEndLatitude": 47.56,
+        "StationCode": "FIN",
+        "ObservationStartTime": 1738361601.04
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 90.0,
+      "EndHeight": 76.3,
+      "StartPositionNorth": 60.574,
+      "StartPositionEast": 11.536,
+      "EndPositionNorth": 60.717,
+      "EndPositionEast": 11.553
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.831,
+      "Eccentricity": 0.595,
+      "Inclination": 6.6,
+      "LongitudeOfAscendingNode": 132.0,
+      "ArgumentOfPerihelion": 54.5,
+      "MeanAnomaly": 347.5
+    }
+  },
+  {
+    "Id": "20250131_170641",
+    "Observations": [
+      {
+        "StationLongitude": 11.53971,
+        "StationLatitude": 60.73471,
+        "ObservationStartLongitude": 117.05,
+        "ObservationEndLongitude": 120.14,
+        "ObservationStartLatitude": 43.94,
+        "ObservationEndLatitude": 34.88,
+        "StationCode": "LOT",
+        "ObservationStartTime": 1738343200.12
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 96.4,
+      "EndHeight": 78.1,
+      "StartPositionNorth": 60.377,
+      "StartPositionEast": 12.983,
+      "EndPositionNorth": 60.223,
+      "EndPositionEast": 13.263
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.946,
+      "Eccentricity": 0.618,
+      "Inclination": 36.2,
+      "LongitudeOfAscendingNode": 311.7,
+      "ArgumentOfPerihelion": 153.7,
+      "MeanAnomaly": 5.0
+    }
+  },
+  {
+    "Id": "20250131_221945",
+    "Observations": [
+      {
+        "StationLongitude": 7.96403523,
+        "StationLatitude": 58.0945324,
+        "ObservationStartLongitude": 109.78,
+        "ObservationEndLongitude": 107.86,
+        "ObservationStartLatitude": 18.86,
+        "ObservationEndLatitude": 15.23,
+        "StationCode": "KRI",
+        "ObservationStartTime": 1738361984.6
+      },
+      {
+        "StationLongitude": 10.098182,
+        "StationLatitude": 59.090854,
+        "ObservationStartLongitude": 164.37,
+        "ObservationEndLongitude": 162.6,
+        "ObservationStartLatitude": 18.8,
+        "ObservationEndLatitude": 15.87,
+        "StationCode": "LAR",
+        "ObservationStartTime": 1738361985.86
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 67.7,
+      "EndHeight": 54.6,
+      "StartPositionNorth": 57.488,
+      "StartPositionEast": 10.916,
+      "EndPositionNorth": 57.535,
+      "EndPositionEast": 11.003
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.942,
+      "Eccentricity": 0.581,
+      "Inclination": 1.0,
+      "LongitudeOfAscendingNode": 311.8,
+      "ArgumentOfPerihelion": 208.3,
+      "MeanAnomaly": 353.7
+    }
+  },
+  {
+    "Id": "20250131_045459",
+    "Observations": [
+      {
+        "StationLongitude": 10.098182,
+        "StationLatitude": 59.090854,
+        "ObservationStartLongitude": 112.02,
+        "ObservationEndLongitude": 163.32,
+        "ObservationStartLatitude": 26.47,
+        "ObservationEndLatitude": 20.52,
+        "StationCode": "LAR",
+        "ObservationStartTime": 1738299299.33
+      },
+      {
+        "StationLongitude": 10.649639,
+        "StationLatitude": 59.97056,
+        "ObservationStartLongitude": 164.72,
+        "ObservationEndLongitude": 170.62,
+        "ObservationStartLatitude": 16.95,
+        "ObservationEndLatitude": 15.1,
+        "StationCode": "OSL",
+        "ObservationStartTime": 1738299304.24
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 151.71,
+        "ObservationEndLongitude": 154.19,
+        "ObservationStartLatitude": 16.51,
+        "ObservationEndLatitude": 15.89,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1738299300.2
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 83.2,
+      "EndHeight": 71.1,
+      "StartPositionNorth": 58.537,
+      "StartPositionEast": 12.676,
+      "EndPositionNorth": 57.532,
+      "EndPositionEast": 10.965
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.935,
+      "Eccentricity": 0.95,
+      "Inclination": 6.0,
+      "LongitudeOfAscendingNode": 311.2,
+      "ArgumentOfPerihelion": 153.6,
+      "MeanAnomaly": 0.2
+    }
+  },
+  {
+    "Id": "20250131_221321",
+    "Observations": [
+      {
+        "StationLongitude": 12.60255,
+        "StationLatitude": 61.05661,
+        "ObservationStartLongitude": 229.66,
+        "ObservationEndLongitude": 236.8,
+        "ObservationStartLatitude": 48.01,
+        "ObservationEndLatitude": 47.61,
+        "StationCode": "FIN",
+        "ObservationStartTime": 1738361602.88
+      },
+      {
+        "StationLongitude": 10.649639,
+        "StationLatitude": 59.97056,
+        "ObservationStartLongitude": 35.78,
+        "ObservationEndLongitude": 33.58,
+        "ObservationStartLatitude": 45.03,
+        "ObservationEndLatitude": 41.38,
+        "StationCode": "OSL",
+        "ObservationStartTime": 1738361603.12
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 92.69,
+        "ObservationEndLongitude": 77.23,
+        "ObservationStartLatitude": 58.93,
+        "ObservationEndLatitude": 54.02,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1738361602.68
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 90.1,
+      "EndHeight": 75.8,
+      "StartPositionNorth": 60.571,
+      "StartPositionEast": 11.553,
+      "EndPositionNorth": 60.719,
+      "EndPositionEast": 11.563
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.861,
+      "Eccentricity": 0.414,
+      "Inclination": 6.1,
+      "LongitudeOfAscendingNode": 132.0,
+      "ArgumentOfPerihelion": 55.4,
+      "MeanAnomaly": 337.0
+    }
+  },
+  {
+    "Id": "20250131_215229",
+    "Observations": [
+      {
+        "StationLongitude": 12.60255,
+        "StationLatitude": 61.05661,
+        "ObservationStartLongitude": 27.93,
+        "ObservationEndLongitude": 32.23,
+        "ObservationStartLatitude": 35.28,
+        "ObservationEndLatitude": 25.52,
+        "StationCode": "FIN",
+        "ObservationStartTime": 1738360350.0
+      },
+      {
+        "StationLongitude": 12.60255,
+        "StationLatitude": 61.05661,
+        "ObservationStartLongitude": 27.64,
+        "ObservationEndLongitude": 32.0,
+        "ObservationStartLatitude": 35.13,
+        "ObservationEndLatitude": 25.68,
+        "StationCode": "FIN",
+        "ObservationStartTime": 1738360350.2
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 47.5,
+        "ObservationEndLongitude": 48.35,
+        "ObservationStartLatitude": 16.59,
+        "ObservationEndLatitude": 14.36,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1738360349.24
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 74.5,
+      "EndHeight": 48.0,
+      "StartPositionNorth": 61.87,
+      "StartPositionEast": 13.513,
+      "EndPositionNorth": 61.796,
+      "EndPositionEast": 13.589
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.971,
+      "Eccentricity": 0.527,
+      "Inclination": 14.8,
+      "LongitudeOfAscendingNode": 311.9,
+      "ArgumentOfPerihelion": 196.8,
+      "MeanAnomaly": 355.5
+    }
+  },
+  {
+    "Id": "20250111_195208",
+    "Observations": [
+      {
+        "StationLongitude": 10.098182,
+        "StationLatitude": 59.090854,
+        "ObservationStartLongitude": 340.95,
+        "ObservationEndLongitude": 340.2,
+        "ObservationStartLatitude": 45.79,
+        "ObservationEndLatitude": 38.9,
+        "StationCode": "LAR",
+        "ObservationStartTime": 1736625128.06
+      },
+      {
+        "StationLongitude": 10.7517887,
+        "StationLatitude": 60.2119374,
+        "ObservationStartLongitude": 223.53,
+        "ObservationEndLongitude": 239.47,
+        "ObservationStartLatitude": 44.94,
+        "ObservationEndLatitude": 41.35,
+        "StationCode": "HAR",
+        "ObservationStartTime": 1736625127.8
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 86.0,
+      "EndHeight": 70.6,
+      "StartPositionNorth": 59.661,
+      "StartPositionEast": 9.726,
+      "EndPositionNorth": 59.85,
+      "EndPositionEast": 9.55
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.898,
+      "Eccentricity": 0.663,
+      "Inclination": 8.8,
+      "LongitudeOfAscendingNode": 111.5,
+      "ArgumentOfPerihelion": 38.5,
+      "MeanAnomaly": 353.8
+    }
+  },
+  {
+    "Id": "20250111_032605",
+    "Observations": [
+      {
+        "StationLongitude": 10.7517887,
+        "StationLatitude": 60.2119374,
+        "ObservationStartLongitude": 252.09,
+        "ObservationEndLongitude": 256.54,
+        "ObservationStartLatitude": 27.85,
+        "ObservationEndLatitude": 24.2,
+        "StationCode": "HAR",
+        "ObservationStartTime": 1736565965.44
+      },
+      {
+        "StationLongitude": 10.7517887,
+        "StationLatitude": 60.2119374,
+        "ObservationStartLongitude": 248.74,
+        "ObservationEndLongitude": 257.92,
+        "ObservationStartLatitude": 30.15,
+        "ObservationEndLatitude": 22.85,
+        "StationCode": "HAR",
+        "ObservationStartTime": 1736565966.92
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 235.1,
+        "ObservationEndLongitude": 245.43,
+        "ObservationStartLatitude": 28.82,
+        "ObservationEndLatitude": 22.46,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1736565966.44
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 110.8,
+      "EndHeight": 90.3,
+      "StartPositionNorth": 59.584,
+      "StartPositionEast": 7.782,
+      "EndPositionNorth": 59.787,
+      "EndPositionEast": 7.224
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.743,
+      "Eccentricity": 0.316,
+      "Inclination": 137.6,
+      "LongitudeOfAscendingNode": 290.8,
+      "ArgumentOfPerihelion": 89.0,
+      "MeanAnomaly": 55.3
+    }
+  },
+  {
+    "Id": "20250127_042613",
+    "Observations": [
+      {
+        "StationLongitude": 18.132711,
+        "StationLatitude": 69.141802,
+        "ObservationStartLongitude": 247.15,
+        "ObservationEndLongitude": 250.66,
+        "ObservationStartLatitude": 45.34,
+        "ObservationEndLatitude": 56.46,
+        "StationCode": "SOR",
+        "ObservationStartTime": 1737951973.64
+      },
+      {
+        "StationLongitude": 18.13227,
+        "StationLatitude": 69.141802,
+        "ObservationStartLongitude": 246.15,
+        "ObservationEndLongitude": 249.61,
+        "ObservationStartLatitude": 44.76,
+        "ObservationEndLatitude": 55.8,
+        "StationCode": "SOR",
+        "ObservationStartTime": 1737951973.57
+      },
+      {
+        "StationLongitude": 20.3633,
+        "StationLatitude": 69.3481,
+        "ObservationStartLongitude": 253.42,
+        "ObservationEndLongitude": 255.87,
+        "ObservationStartLatitude": 27.43,
+        "ObservationEndLatitude": 30.5,
+        "StationCode": "SKI",
+        "ObservationStartTime": 1737951975.52
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 94.4,
+      "EndHeight": 82.5,
+      "StartPositionNorth": 68.795,
+      "StartPositionEast": 16.012,
+      "EndPositionNorth": 69.019,
+      "EndPositionEast": 17.069
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.134,
+      "Eccentricity": 0.928,
+      "Inclination": 26.2,
+      "LongitudeOfAscendingNode": 127.1,
+      "ArgumentOfPerihelion": 142.7,
+      "MeanAnomaly": 346.4
+    }
+  },
+  {
+    "Id": "20250127_062244",
+    "Observations": [
+      {
+        "StationLongitude": 18.132711,
+        "StationLatitude": 69.141802,
+        "ObservationStartLongitude": 1.16,
+        "ObservationEndLongitude": 4.54,
+        "ObservationStartLatitude": 30.88,
+        "ObservationEndLatitude": 31.1,
+        "StationCode": "SOR",
+        "ObservationStartTime": 1737958964.86
+      },
+      {
+        "StationLongitude": 20.3633,
+        "StationLatitude": 69.3481,
+        "ObservationStartLongitude": 328.89,
+        "ObservationEndLongitude": 332.14,
+        "ObservationStartLatitude": 30.54,
+        "ObservationEndLatitude": 33.08,
+        "StationCode": "SKI",
+        "ObservationStartTime": 1737958964.88
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 97.6,
+      "EndHeight": 86.9,
+      "StartPositionNorth": 70.559,
+      "StartPositionEast": 18.145,
+      "EndPositionNorth": 70.367,
+      "EndPositionEast": 18.75
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.783,
+      "Eccentricity": 0.736,
+      "Inclination": 1.3,
+      "LongitudeOfAscendingNode": 307.1,
+      "ArgumentOfPerihelion": 239.0,
+      "MeanAnomaly": 352.9
+    }
+  },
+  {
+    "Id": "20250110_204505",
+    "Observations": [
+      {
+        "StationLongitude": 14.6447,
+        "StationLatitude": 60.2411,
+        "ObservationStartLongitude": 203.3,
+        "ObservationEndLongitude": 192.0,
+        "ObservationStartLatitude": 54.8,
+        "ObservationEndLatitude": 61.6,
+        "StationCode": "HBRG",
+        "ObservationStartTime": 1736541905.66
+      },
+      {
+        "StationLongitude": 10.098182,
+        "StationLatitude": 59.090854,
+        "ObservationStartLongitude": 76.35,
+        "ObservationEndLongitude": 69.56,
+        "ObservationStartLatitude": 48.62,
+        "ObservationEndLatitude": 42.69,
+        "StationCode": "LAR",
+        "ObservationStartTime": 1736541910.26
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 209.6,
+      "EndHeight": 201.5,
+      "StartPositionNorth": 59.26,
+      "StartPositionEast": 13.434,
+      "EndPositionNorth": 59.553,
+      "EndPositionEast": 14.027
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.983,
+      "Eccentricity": 4.356,
+      "Inclination": 13.4,
+      "LongitudeOfAscendingNode": 110.5,
+      "ArgumentOfPerihelion": 0.1,
+      "MeanAnomaly": -0.4
+    }
+  },
+  {
+    "Id": "20250110_215851",
+    "Observations": [
+      {
+        "StationLongitude": 7.96403523,
+        "StationLatitude": 58.0945324,
+        "ObservationStartLongitude": 16.56,
+        "ObservationEndLongitude": 13.92,
+        "ObservationStartLatitude": 21.84,
+        "ObservationEndLatitude": 19.17,
+        "StationCode": "KRI",
+        "ObservationStartTime": 1736546332.72
+      },
+      {
+        "StationLongitude": 10.098182,
+        "StationLatitude": 59.090854,
+        "ObservationStartLongitude": 321.49,
+        "ObservationEndLongitude": 321.71,
+        "ObservationStartLatitude": 37.42,
+        "ObservationEndLatitude": 29.46,
+        "StationCode": "LAR",
+        "ObservationStartTime": 1736546331.66
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 223.71,
+        "ObservationEndLongitude": 234.1,
+        "ObservationStartLatitude": 33.38,
+        "ObservationEndLatitude": 28.28,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1736546333.32
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 86.3,
+      "EndHeight": 69.6,
+      "StartPositionNorth": 59.77,
+      "StartPositionEast": 9.012,
+      "EndPositionNorth": 59.932,
+      "EndPositionEast": 8.762
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.438,
+      "Eccentricity": 0.779,
+      "Inclination": 11.6,
+      "LongitudeOfAscendingNode": 110.6,
+      "ArgumentOfPerihelion": 105.4,
+      "MeanAnomaly": 344.4
+    }
+  },
+  {
+    "Id": "20250110_164652",
+    "Observations": [
+      {
+        "StationLongitude": 12.60255,
+        "StationLatitude": 61.05661,
+        "ObservationStartLongitude": 300.48,
+        "ObservationEndLongitude": 293.6,
+        "ObservationStartLatitude": 49.9,
+        "ObservationEndLatitude": 47.45,
+        "StationCode": "FIN",
+        "ObservationStartTime": 1736527612.24
+      },
+      {
+        "StationLongitude": 12.60255,
+        "StationLatitude": 61.05661,
+        "ObservationStartLongitude": 299.65,
+        "ObservationEndLongitude": 293.89,
+        "ObservationStartLatitude": 49.55,
+        "ObservationEndLatitude": 47.39,
+        "StationCode": "FIN",
+        "ObservationStartTime": 1736527612.92
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 82.25,
+        "ObservationEndLongitude": 85.8,
+        "ObservationStartLatitude": 42.04,
+        "ObservationEndLatitude": 39.96,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1736527611.84
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 68.1,
+      "EndHeight": 24.4,
+      "StartPositionNorth": 61.063,
+      "StartPositionEast": 12.039,
+      "EndPositionNorth": 60.727,
+      "EndPositionEast": 11.657
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.725,
+      "Eccentricity": 2.894,
+      "Inclination": 56.0,
+      "LongitudeOfAscendingNode": 290.3,
+      "ArgumentOfPerihelion": 229.7,
+      "MeanAnomaly": -81.2
+    }
+  },
+  {
+    "Id": "20250110_232156",
+    "Observations": [
+      {
+        "StationLongitude": 10.098182,
+        "StationLatitude": 59.090854,
+        "ObservationStartLongitude": 18.26,
+        "ObservationEndLongitude": 12.71,
+        "ObservationStartLatitude": 26.87,
+        "ObservationEndLatitude": 19.36,
+        "StationCode": "LAR",
+        "ObservationStartTime": 1736551316.73
+      },
+      {
+        "StationLongitude": 10.664113,
+        "StationLatitude": 59.435213,
+        "ObservationStartLongitude": 12.52,
+        "ObservationEndLongitude": 5.2,
+        "ObservationStartLatitude": 36.39,
+        "ObservationEndLatitude": 25.3,
+        "StationCode": "mos",
+        "ObservationStartTime": 1736551316.64
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 101.0,
+      "EndHeight": 73.6,
+      "StartPositionNorth": 60.601,
+      "StartPositionEast": 11.191,
+      "EndPositionNorth": 60.827,
+      "EndPositionEast": 10.901
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.123,
+      "Eccentricity": 0.962,
+      "Inclination": 2.6,
+      "LongitudeOfAscendingNode": 110.7,
+      "ArgumentOfPerihelion": 141.7,
+      "MeanAnomaly": 354.3
+    }
+  },
+  {
+    "Id": "20250104_191541",
+    "Observations": [
+      {
+        "StationLongitude": 10.098182,
+        "StationLatitude": 59.090854,
+        "ObservationStartLongitude": 6.59,
+        "ObservationEndLongitude": 6.4,
+        "ObservationStartLatitude": 20.35,
+        "ObservationEndLatitude": 17.31,
+        "StationCode": "LAR",
+        "ObservationStartTime": 1736018141.4
+      },
+      {
+        "StationLongitude": 12.60255,
+        "StationLatitude": 61.05661,
+        "ObservationStartLongitude": 276.71,
+        "ObservationEndLongitude": 269.92,
+        "ObservationStartLatitude": 40.61,
+        "ObservationEndLatitude": 32.22,
+        "StationCode": "FIN",
+        "ObservationStartTime": 1736018141.64
+      },
+      {
+        "StationLongitude": 10.7517887,
+        "StationLatitude": 60.2119374,
+        "ObservationStartLongitude": 355.17,
+        "ObservationEndLongitude": 352.99,
+        "ObservationStartLatitude": 41.09,
+        "ObservationEndLatitude": 36.95,
+        "StationCode": "HAR",
+        "ObservationStartTime": 1736018141.64
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 95.9,
+      "EndHeight": 71.5,
+      "StartPositionNorth": 61.156,
+      "StartPositionEast": 10.595,
+      "EndPositionNorth": 61.036,
+      "EndPositionEast": 10.545
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.894,
+      "Eccentricity": 0.882,
+      "Inclination": 36.9,
+      "LongitudeOfAscendingNode": 284.3,
+      "ArgumentOfPerihelion": 216.3,
+      "MeanAnomaly": 358.9
+    }
+  },
+  {
+    "Id": "20250104_001114",
+    "Observations": [
+      {
+        "StationLongitude": 10.7517887,
+        "StationLatitude": 60.2119374,
+        "ObservationStartLongitude": 298.54,
+        "ObservationEndLongitude": 294.29,
+        "ObservationStartLatitude": 20.73,
+        "ObservationEndLatitude": 17.58,
+        "StationCode": "HAR",
+        "ObservationStartTime": 1735949474.48
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 290.38,
+        "ObservationEndLongitude": 284.66,
+        "ObservationStartLatitude": 24.13,
+        "ObservationEndLatitude": 19.36,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1735949475.24
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 99.6,
+      "EndHeight": 82.9,
+      "StartPositionNorth": 61.208,
+      "StartPositionEast": 6.899,
+      "EndPositionNorth": 61.044,
+      "EndPositionEast": 6.612
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.983,
+      "Eccentricity": 0.734,
+      "Inclination": 68.4,
+      "LongitudeOfAscendingNode": 283.5,
+      "ArgumentOfPerihelion": 176.4,
+      "MeanAnomaly": 0.4
+    }
+  },
+  {
+    "Id": "20250104_190557",
+    "Observations": [
+      {
+        "StationLongitude": 10.098182,
+        "StationLatitude": 59.090854,
+        "ObservationStartLongitude": 96.66,
+        "ObservationEndLongitude": 99.17,
+        "ObservationStartLatitude": 38.37,
+        "ObservationEndLatitude": 39.98,
+        "StationCode": "LAR",
+        "ObservationStartTime": 1736017557.33
+      },
+      {
+        "StationLongitude": 10.098182,
+        "StationLatitude": 59.090854,
+        "ObservationStartLongitude": 96.38,
+        "ObservationEndLongitude": 99.13,
+        "ObservationStartLatitude": 38.31,
+        "ObservationEndLatitude": 40.06,
+        "StationCode": "LAR",
+        "ObservationStartTime": 1736017557.26
+      },
+      {
+        "StationLongitude": 10.098182,
+        "StationLatitude": 59.090854,
+        "ObservationStartLongitude": 97.37,
+        "ObservationEndLongitude": 99.65,
+        "ObservationStartLatitude": 38.58,
+        "ObservationEndLatitude": 40.07,
+        "StationCode": "LAR",
+        "ObservationStartTime": 1736017558.48
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 154.01,
+        "ObservationEndLongitude": 159.76,
+        "ObservationStartLatitude": 24.07,
+        "ObservationEndLatitude": 21.77,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1736017557.6
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 99.9,
+      "EndHeight": 82.8,
+      "StartPositionNorth": 58.949,
+      "StartPositionEast": 12.229,
+      "EndPositionNorth": 58.937,
+      "EndPositionEast": 11.744
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.343,
+      "Eccentricity": 0.91,
+      "Inclination": 7.2,
+      "LongitudeOfAscendingNode": 284.3,
+      "ArgumentOfPerihelion": 291.5,
+      "MeanAnomaly": 354.8
+    }
+  },
+  {
+    "Id": "20250104_190310",
+    "Observations": [
+      {
+        "StationLongitude": 14.6447,
+        "StationLatitude": 60.2411,
+        "ObservationStartLongitude": 159.9,
+        "ObservationEndLongitude": 165.9,
+        "ObservationStartLatitude": 66.5,
+        "ObservationEndLatitude": 52.6,
+        "StationCode": "HBRG",
+        "ObservationStartTime": 1736017390.54
+      },
+      {
+        "StationLongitude": 12.60255,
+        "StationLatitude": 61.05661,
+        "ObservationStartLongitude": 132.21,
+        "ObservationEndLongitude": 139.02,
+        "ObservationStartLatitude": 28.92,
+        "ObservationEndLatitude": 21.15,
+        "StationCode": "FIN",
+        "ObservationStartTime": 1736017391.4
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 103.52,
+        "ObservationEndLongitude": 111.32,
+        "ObservationStartLatitude": 20.56,
+        "ObservationEndLatitude": 15.91,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1736017390.4
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 99.2,
+      "EndHeight": 81.5,
+      "StartPositionNorth": 60.012,
+      "StartPositionEast": 14.876,
+      "EndPositionNorth": 59.671,
+      "EndPositionEast": 14.922
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.983,
+      "Eccentricity": 0.652,
+      "Inclination": 66.2,
+      "LongitudeOfAscendingNode": 284.3,
+      "ArgumentOfPerihelion": 177.9,
+      "MeanAnomaly": 0.3
+    }
+  },
+  {
+    "Id": "20250104_005521",
+    "Observations": [
+      {
+        "StationLongitude": 12.60255,
+        "StationLatitude": 61.05661,
+        "ObservationStartLongitude": 324.37,
+        "ObservationEndLongitude": 330.36,
+        "ObservationStartLatitude": 47.67,
+        "ObservationEndLatitude": 42.47,
+        "StationCode": "FIN",
+        "ObservationStartTime": 1735952121.36
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 87.12,
+        "ObservationEndLongitude": 89.4,
+        "ObservationStartLatitude": 32.42,
+        "ObservationEndLatitude": 26.81,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1735952121.44
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 28.6,
+        "ObservationEndLongitude": 31.56,
+        "ObservationStartLatitude": 33.01,
+        "ObservationEndLatitude": 25.85,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1735952121.44
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 54.9,
+      "EndHeight": -55.9,
+      "StartPositionNorth": 61.037,
+      "StartPositionEast": 11.378,
+      "EndPositionNorth": 60.793,
+      "EndPositionEast": 12.496
+    },
+    "OrbitalData": null
+  },
+  {
+    "Id": "20250104_183632",
+    "Observations": [
+      {
+        "StationLongitude": 10.7517887,
+        "StationLatitude": 60.2119374,
+        "ObservationStartLongitude": 106.28,
+        "ObservationEndLongitude": 117.56,
+        "ObservationStartLatitude": 36.11,
+        "ObservationEndLatitude": 34.96,
+        "StationCode": "HAR",
+        "ObservationStartTime": 1736015792.92
+      },
+      {
+        "StationLongitude": 10.7517887,
+        "StationLatitude": 60.2119374,
+        "ObservationStartLongitude": 106.36,
+        "ObservationEndLongitude": 119.42,
+        "ObservationStartLatitude": 35.98,
+        "ObservationEndLatitude": 34.55,
+        "StationCode": "HAR",
+        "ObservationStartTime": 1736015792.8
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 117.39,
+        "ObservationEndLongitude": 130.61,
+        "ObservationStartLatitude": 31.9,
+        "ObservationEndLatitude": 28.78,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1736015793.48
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 112.4,
+      "EndHeight": 97.2,
+      "StartPositionNorth": 59.856,
+      "StartPositionEast": 13.313,
+      "EndPositionNorth": 59.589,
+      "EndPositionEast": 12.848
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.38,
+      "Eccentricity": 1.005,
+      "Inclination": 89.6,
+      "LongitudeOfAscendingNode": 284.3,
+      "ArgumentOfPerihelion": 283.0,
+      "MeanAnomaly": -0.0
+    }
+  },
+  {
+    "Id": "20250104_001115",
+    "Observations": [
+      {
+        "StationLongitude": 10.649639,
+        "StationLatitude": 59.97056,
+        "ObservationStartLongitude": 305.27,
+        "ObservationEndLongitude": 300.76,
+        "ObservationStartLatitude": 20.18,
+        "ObservationEndLatitude": 17.04,
+        "StationCode": "OSL",
+        "ObservationStartTime": 1735949474.56
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 97.0,
+      "EndHeight": 80.3,
+      "StartPositionNorth": 61.194,
+      "StartPositionEast": 6.992,
+      "EndPositionNorth": 61.032,
+      "EndPositionEast": 6.736
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.983,
+      "Eccentricity": 0.827,
+      "Inclination": 66.1,
+      "LongitudeOfAscendingNode": 283.5,
+      "ArgumentOfPerihelion": 178.3,
+      "MeanAnomaly": 0.1
+    }
+  },
+  {
+    "Id": "20250104_005149",
+    "Observations": [
+      {
+        "StationLongitude": 14.6447,
+        "StationLatitude": 60.2411,
+        "ObservationStartLongitude": 265.7,
+        "ObservationEndLongitude": 262.1,
+        "ObservationStartLatitude": 63.2,
+        "ObservationEndLatitude": 59.6,
+        "StationCode": "HBRG",
+        "ObservationStartTime": 1735951909.72
+      },
+      {
+        "StationLongitude": 12.60255,
+        "StationLatitude": 61.05661,
+        "ObservationStartLongitude": 139.26,
+        "ObservationEndLongitude": 148.28,
+        "ObservationStartLatitude": 38.84,
+        "ObservationEndLatitude": 34.11,
+        "StationCode": "FIN",
+        "ObservationStartTime": 1735951909.84
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 96.3,
+      "EndHeight": 81.9,
+      "StartPositionNorth": 60.259,
+      "StartPositionEast": 13.973,
+      "EndPositionNorth": 60.155,
+      "EndPositionEast": 13.715
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.978,
+      "Eccentricity": 0.618,
+      "Inclination": 67.6,
+      "LongitudeOfAscendingNode": 283.6,
+      "ArgumentOfPerihelion": 170.7,
+      "MeanAnomaly": 1.7
+    }
+  },
+  {
+    "Id": "20250101_223826",
+    "Observations": [
+      {
+        "StationLongitude": 10.649639,
+        "StationLatitude": 59.97056,
+        "ObservationStartLongitude": 191.01,
+        "ObservationEndLongitude": 190.04,
+        "ObservationStartLatitude": 42.83,
+        "ObservationEndLatitude": 40.98,
+        "StationCode": "OSL",
+        "ObservationStartTime": 1735771106.52
+      },
+      {
+        "StationLongitude": 10.7517887,
+        "StationLatitude": 60.2119374,
+        "ObservationStartLongitude": 191.07,
+        "ObservationEndLongitude": 190.06,
+        "ObservationStartLatitude": 34.13,
+        "ObservationEndLatitude": 30.72,
+        "StationCode": "HAR",
+        "ObservationStartTime": 1735771106.6
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 82.1,
+      "EndHeight": 62.5,
+      "StartPositionNorth": 59.208,
+      "StartPositionEast": 10.36,
+      "EndPositionNorth": 59.311,
+      "EndPositionEast": 10.439
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.802,
+      "Eccentricity": 0.927,
+      "Inclination": 1.4,
+      "LongitudeOfAscendingNode": 281.3,
+      "ArgumentOfPerihelion": 232.1,
+      "MeanAnomaly": 359.1
+    }
+  },
+  {
+    "Id": "20250101_234753",
+    "Observations": [
+      {
+        "StationLongitude": 12.60255,
+        "StationLatitude": 61.05661,
+        "ObservationStartLongitude": 198.18,
+        "ObservationEndLongitude": 196.96,
+        "ObservationStartLatitude": 26.68,
+        "ObservationEndLatitude": 24.49,
+        "StationCode": "FIN",
+        "ObservationStartTime": 1735775273.44
+      },
+      {
+        "StationLongitude": 10.7517887,
+        "StationLatitude": 60.2119374,
+        "ObservationStartLongitude": 137.25,
+        "ObservationEndLongitude": 135.05,
+        "ObservationStartLatitude": 44.24,
+        "ObservationEndLatitude": 41.21,
+        "StationCode": "HAR",
+        "ObservationStartTime": 1735775274.72
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 85.2,
+      "EndHeight": 74.2,
+      "StartPositionNorth": 59.666,
+      "StartPositionEast": 11.702,
+      "EndPositionNorth": 59.683,
+      "EndPositionEast": 11.788
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.93,
+      "Eccentricity": 0.302,
+      "Inclination": 2.7,
+      "LongitudeOfAscendingNode": 281.4,
+      "ArgumentOfPerihelion": 219.9,
+      "MeanAnomaly": 338.9
+    }
+  },
+  {
+    "Id": "20250130_180330",
+    "Observations": [
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 124.94,
+        "ObservationEndLongitude": 137.99,
+        "ObservationStartLatitude": 44.81,
+        "ObservationEndLatitude": 44.73,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1738260210.12
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 100.6,
+      "EndHeight": 92.1,
+      "StartPositionNorth": 60.1,
+      "StartPositionEast": 12.048,
+      "EndPositionNorth": 59.99,
+      "EndPositionEast": 11.653
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.277,
+      "Eccentricity": 0.945,
+      "Inclination": 34.5,
+      "LongitudeOfAscendingNode": 310.7,
+      "ArgumentOfPerihelion": 298.6,
+      "MeanAnomaly": 356.7
+    }
+  },
+  {
+    "Id": "20250130_054306",
+    "Observations": [
+      {
+        "StationLongitude": 12.60255,
+        "StationLatitude": 61.05661,
+        "ObservationStartLongitude": 210.77,
+        "ObservationEndLongitude": 204.38,
+        "ObservationStartLatitude": 22.79,
+        "ObservationEndLatitude": 21.94,
+        "StationCode": "FIN",
+        "ObservationStartTime": 1738215784.08
+      },
+      {
+        "StationLongitude": 11.53971,
+        "StationLatitude": 60.73471,
+        "ObservationStartLongitude": 196.1,
+        "ObservationEndLongitude": 187.07,
+        "ObservationStartLatitude": 30.34,
+        "ObservationEndLatitude": 28.84,
+        "StationCode": "LOT",
+        "ObservationStartTime": 1738215784.56
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 175.61,
+        "ObservationEndLongitude": 161.99,
+        "ObservationStartLatitude": 34.87,
+        "ObservationEndLatitude": 30.51,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1738215784.88
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 90.8,
+      "EndHeight": 79.7,
+      "StartPositionNorth": 59.469,
+      "StartPositionEast": 10.739,
+      "EndPositionNorth": 59.48,
+      "EndPositionEast": 11.283
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.319,
+      "Eccentricity": 0.827,
+      "Inclination": 0.1,
+      "LongitudeOfAscendingNode": 308.6,
+      "ArgumentOfPerihelion": 301.2,
+      "MeanAnomaly": 343.5
+    }
+  },
+  {
+    "Id": "20250130_054304",
+    "Observations": [
+      {
+        "StationLongitude": 10.098182,
+        "StationLatitude": 59.090854,
+        "ObservationStartLongitude": 41.76,
+        "ObservationEndLongitude": 55.37,
+        "ObservationStartLatitude": 56.0,
+        "ObservationEndLatitude": 45.54,
+        "StationCode": "LAR",
+        "ObservationStartTime": 1738215784.33
+      },
+      {
+        "StationLongitude": 10.098182,
+        "StationLatitude": 59.090854,
+        "ObservationStartLongitude": 38.27,
+        "ObservationEndLongitude": 55.38,
+        "ObservationStartLatitude": 57.79,
+        "ObservationEndLatitude": 45.66,
+        "StationCode": "LAR",
+        "ObservationStartTime": 1738215785.92
+      },
+      {
+        "StationLongitude": 10.098182,
+        "StationLatitude": 59.090854,
+        "ObservationStartLongitude": 42.46,
+        "ObservationEndLongitude": 54.76,
+        "ObservationStartLatitude": 55.55,
+        "ObservationEndLatitude": 46.12,
+        "StationCode": "LAR",
+        "ObservationStartTime": 1738215784.86
+      },
+      {
+        "StationLongitude": 10.664113,
+        "StationLatitude": 59.435213,
+        "ObservationStartLongitude": 49.99,
+        "ObservationEndLongitude": 76.48,
+        "ObservationStartLatitude": 84.54,
+        "ObservationEndLatitude": 74.95,
+        "StationCode": "mos",
+        "ObservationStartTime": 1738215786.04
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 90.3,
+      "EndHeight": 80.1,
+      "StartPositionNorth": 59.484,
+      "StartPositionEast": 10.71,
+      "EndPositionNorth": 59.479,
+      "EndPositionEast": 11.219
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.371,
+      "Eccentricity": 0.823,
+      "Inclination": 0.3,
+      "LongitudeOfAscendingNode": 309.8,
+      "ArgumentOfPerihelion": 292.8,
+      "MeanAnomaly": 346.2
+    }
+  },
+  {
+    "Id": "20250130_213915",
+    "Observations": [
+      {
+        "StationLongitude": 10.098182,
+        "StationLatitude": 59.090854,
+        "ObservationStartLongitude": 83.28,
+        "ObservationEndLongitude": 81.5,
+        "ObservationStartLatitude": 12.75,
+        "ObservationEndLatitude": 8.69,
+        "StationCode": "LAR",
+        "ObservationStartTime": 1738273154.88
+      },
+      {
+        "StationLongitude": 10.098182,
+        "StationLatitude": 59.090854,
+        "ObservationStartLongitude": 83.31,
+        "ObservationEndLongitude": 80.7,
+        "ObservationStartLatitude": 12.94,
+        "ObservationEndLatitude": 7.45,
+        "StationCode": "LAR",
+        "ObservationStartTime": 1738273155.59
+      },
+      {
+        "StationLongitude": 10.7517887,
+        "StationLatitude": 60.2119374,
+        "ObservationStartLongitude": 111.75,
+        "ObservationEndLongitude": 110.9,
+        "ObservationStartLatitude": 13.84,
+        "ObservationEndLatitude": 11.39,
+        "StationCode": "HAR",
+        "ObservationStartTime": 1738273154.76
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 118.4,
+        "ObservationEndLongitude": 117.77,
+        "ObservationStartLatitude": 11.05,
+        "ObservationEndLatitude": 8.9,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1738273154.96
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 70.4,
+      "EndHeight": 41.9,
+      "StartPositionNorth": 59.289,
+      "StartPositionEast": 14.939,
+      "EndPositionNorth": 59.398,
+      "EndPositionEast": 14.872
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.817,
+      "Eccentricity": 0.592,
+      "Inclination": 4.9,
+      "LongitudeOfAscendingNode": 310.9,
+      "ArgumentOfPerihelion": 237.3,
+      "MeanAnomaly": 346.5
+    }
+  },
+  {
+    "Id": "20250130_184011",
+    "Observations": [
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 256.66,
+        "ObservationEndLongitude": 246.37,
+        "ObservationStartLatitude": 50.36,
+        "ObservationEndLatitude": 45.07,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1738262410.8
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 84.3,
+      "EndHeight": 68.5,
+      "StartPositionNorth": 60.453,
+      "StartPositionEast": 9.362,
+      "EndPositionNorth": 60.346,
+      "EndPositionEast": 9.45
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.985,
+      "Eccentricity": 0.741,
+      "Inclination": 30.6,
+      "LongitudeOfAscendingNode": 310.8,
+      "ArgumentOfPerihelion": 179.3,
+      "MeanAnomaly": 0.1
+    }
+  },
+  {
+    "Id": "20250130_174133",
+    "Observations": [
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 274.25,
+        "ObservationEndLongitude": 272.88,
+        "ObservationStartLatitude": 52.34,
+        "ObservationEndLatitude": 46.59,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1738258894.04
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 78.2,
+      "EndHeight": 71.2,
+      "StartPositionNorth": 60.635,
+      "StartPositionEast": 9.493,
+      "EndPositionNorth": 60.622,
+      "EndPositionEast": 9.305
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.753,
+      "Eccentricity": 0.519,
+      "Inclination": 3.6,
+      "LongitudeOfAscendingNode": 310.7,
+      "ArgumentOfPerihelion": 252.0,
+      "MeanAnomaly": 336.4
+    }
+  },
+  {
+    "Id": "20250130_174134",
+    "Observations": [
+      {
+        "StationLongitude": 8.65566,
+        "StationLatitude": 59.85112,
+        "ObservationStartLongitude": 26.78,
+        "ObservationEndLongitude": 22.45,
+        "ObservationStartLatitude": 36.94,
+        "ObservationEndLatitude": 36.14,
+        "StationCode": "GAU",
+        "ObservationStartTime": 1738258893.4
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 273.99,
+        "ObservationEndLongitude": 272.48,
+        "ObservationStartLatitude": 52.27,
+        "ObservationEndLatitude": 45.4,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1738258895.44
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 78.0,
+      "EndHeight": 71.1,
+      "StartPositionNorth": 60.633,
+      "StartPositionEast": 9.492,
+      "EndPositionNorth": 60.62,
+      "EndPositionEast": 9.304
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.739,
+      "Eccentricity": 0.583,
+      "Inclination": 4.0,
+      "LongitudeOfAscendingNode": 310.7,
+      "ArgumentOfPerihelion": 251.2,
+      "MeanAnomaly": 341.3
+    }
+  },
+  {
+    "Id": "20250117_172754",
+    "Observations": [
+      {
+        "StationLongitude": 10.098182,
+        "StationLatitude": 59.090854,
+        "ObservationStartLongitude": 301.67,
+        "ObservationEndLongitude": 293.62,
+        "ObservationStartLatitude": 35.32,
+        "ObservationEndLatitude": 33.29,
+        "StationCode": "LAR",
+        "ObservationStartTime": 1737134874.79
+      },
+      {
+        "StationLongitude": 10.098182,
+        "StationLatitude": 59.090854,
+        "ObservationStartLongitude": 301.24,
+        "ObservationEndLongitude": 293.69,
+        "ObservationStartLatitude": 35.26,
+        "ObservationEndLatitude": 33.49,
+        "StationCode": "LAR",
+        "ObservationStartTime": 1737134874.93
+      },
+      {
+        "StationLongitude": 10.649639,
+        "StationLatitude": 59.97056,
+        "ObservationStartLongitude": 259.32,
+        "ObservationEndLongitude": 250.18,
+        "ObservationStartLatitude": 32.93,
+        "ObservationEndLatitude": 27.61,
+        "StationCode": "OSL",
+        "ObservationStartTime": 1737134875.6
+      },
+      {
+        "StationLongitude": 10.664113,
+        "StationLatitude": 59.435213,
+        "ObservationStartLongitude": 282.06,
+        "ObservationEndLongitude": 274.44,
+        "ObservationStartLatitude": 31.42,
+        "ObservationEndLatitude": 28.12,
+        "StationCode": "mos",
+        "ObservationStartTime": 1737134876.6
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 94.5,
+      "EndHeight": 75.8,
+      "StartPositionNorth": 59.713,
+      "StartPositionEast": 8.18,
+      "EndPositionNorth": 59.487,
+      "EndPositionEast": 8.265
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.957,
+      "Eccentricity": 0.647,
+      "Inclination": 53.1,
+      "LongitudeOfAscendingNode": 297.5,
+      "ArgumentOfPerihelion": 201.4,
+      "MeanAnomaly": 356.4
+    }
+  },
+  {
+    "Id": "20250117_232033",
+    "Observations": [
+      {
+        "StationLongitude": 10.098182,
+        "StationLatitude": 59.090854,
+        "ObservationStartLongitude": 353.71,
+        "ObservationEndLongitude": 351.6,
+        "ObservationStartLatitude": 15.31,
+        "ObservationEndLatitude": 11.57,
+        "StationCode": "LAR",
+        "ObservationStartTime": 1737156033.79
+      },
+      {
+        "StationLongitude": 12.60255,
+        "StationLatitude": 61.05661,
+        "ObservationStartLongitude": 298.81,
+        "ObservationEndLongitude": 301.48,
+        "ObservationStartLatitude": 25.83,
+        "ObservationEndLatitude": 15.97,
+        "StationCode": "FIN",
+        "ObservationStartTime": 1737156034.2
+      },
+      {
+        "StationLongitude": 10.649639,
+        "StationLatitude": 59.97056,
+        "ObservationStartLongitude": 343.68,
+        "ObservationEndLongitude": 340.24,
+        "ObservationStartLatitude": 22.92,
+        "ObservationEndLatitude": 14.26,
+        "StationCode": "OSL",
+        "ObservationStartTime": 1737156034.36
+      },
+      {
+        "StationLongitude": 8.65566,
+        "StationLatitude": 59.85112,
+        "ObservationStartLongitude": 10.99,
+        "ObservationEndLongitude": 4.63,
+        "ObservationStartLatitude": 21.28,
+        "ObservationEndLatitude": 13.51,
+        "StationCode": "GAU",
+        "ObservationStartTime": 1737156034.12
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 96.5,
+      "EndHeight": 65.8,
+      "StartPositionNorth": 61.824,
+      "StartPositionEast": 9.5,
+      "EndPositionNorth": 62.04,
+      "EndPositionEast": 9.038
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.09,
+      "Eccentricity": 0.951,
+      "Inclination": 21.3,
+      "LongitudeOfAscendingNode": 297.7,
+      "ArgumentOfPerihelion": 329.8,
+      "MeanAnomaly": 346.5
+    }
+  },
+  {
+    "Id": "20250117_232741",
+    "Observations": [
+      {
+        "StationLongitude": 10.649639,
+        "StationLatitude": 59.97056,
+        "ObservationStartLongitude": 235.17,
+        "ObservationEndLongitude": 240.3,
+        "ObservationStartLatitude": 41.32,
+        "ObservationEndLatitude": 30.84,
+        "StationCode": "OSL",
+        "ObservationStartTime": 1737156462.08
+      },
+      {
+        "StationLongitude": 10.7517887,
+        "StationLatitude": 60.2119374,
+        "ObservationStartLongitude": 226.71,
+        "ObservationEndLongitude": 232.85,
+        "ObservationStartLatitude": 36.89,
+        "ObservationEndLatitude": 27.82,
+        "StationCode": "HAR",
+        "ObservationStartTime": 1737156461.72
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 102.7,
+      "EndHeight": 87.4,
+      "StartPositionNorth": 59.387,
+      "StartPositionEast": 9.058,
+      "EndPositionNorth": 59.324,
+      "EndPositionEast": 8.491
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.836,
+      "Eccentricity": 0.617,
+      "Inclination": 114.2,
+      "LongitudeOfAscendingNode": 297.8,
+      "ArgumentOfPerihelion": 232.8,
+      "MeanAnomaly": 349.0
+    }
+  },
+  {
+    "Id": "20250117_203508",
+    "Observations": [
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 228.26,
+        "ObservationEndLongitude": 234.82,
+        "ObservationStartLatitude": 21.2,
+        "ObservationEndLatitude": 15.59,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1737146107.84
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 84.6,
+      "EndHeight": 62.6,
+      "StartPositionNorth": 59.377,
+      "StartPositionEast": 8.084,
+      "EndPositionNorth": 59.483,
+      "EndPositionEast": 7.555
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.443,
+      "Eccentricity": 0.704,
+      "Inclination": 1.4,
+      "LongitudeOfAscendingNode": 117.7,
+      "ArgumentOfPerihelion": 109.3,
+      "MeanAnomaly": 334.2
+    }
+  },
+  {
+    "Id": "20250117_232034",
+    "Observations": [
+      {
+        "StationLongitude": 10.7517887,
+        "StationLatitude": 60.2119374,
+        "ObservationStartLongitude": 339.9,
+        "ObservationEndLongitude": 337.21,
+        "ObservationStartLatitude": 24.79,
+        "ObservationEndLatitude": 16.99,
+        "StationCode": "HAR",
+        "ObservationStartTime": 1737156033.56
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 95.4,
+      "EndHeight": 66.1,
+      "StartPositionNorth": 61.858,
+      "StartPositionEast": 9.472,
+      "EndPositionNorth": 62.068,
+      "EndPositionEast": 9.028
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.084,
+      "Eccentricity": 0.957,
+      "Inclination": 21.1,
+      "LongitudeOfAscendingNode": 297.7,
+      "ArgumentOfPerihelion": 330.4,
+      "MeanAnomaly": 348.2
+    }
+  },
+  {
+    "Id": "20250117_203507",
+    "Observations": [
+      {
+        "StationLongitude": 10.098182,
+        "StationLatitude": 59.090854,
+        "ObservationStartLongitude": 284.36,
+        "ObservationEndLongitude": 285.31,
+        "ObservationStartLatitude": 30.65,
+        "ObservationEndLatitude": 24.69,
+        "StationCode": "LAR",
+        "ObservationStartTime": 1737146108.16
+      },
+      {
+        "StationLongitude": 10.098182,
+        "StationLatitude": 59.090854,
+        "ObservationStartLongitude": 283.79,
+        "ObservationEndLongitude": 285.78,
+        "ObservationStartLatitude": 33.29,
+        "ObservationEndLatitude": 21.96,
+        "StationCode": "LAR",
+        "ObservationStartTime": 1737146107.2
+      },
+      {
+        "StationLongitude": 10.664113,
+        "StationLatitude": 59.435213,
+        "ObservationStartLongitude": 269.23,
+        "ObservationEndLongitude": 272.25,
+        "ObservationStartLatitude": 26.45,
+        "ObservationEndLatitude": 19.69,
+        "StationCode": "mos",
+        "ObservationStartTime": 1737146108.0
+      },
+      {
+        "StationLongitude": 10.7517887,
+        "StationLatitude": 60.2119374,
+        "ObservationStartLongitude": 239.16,
+        "ObservationEndLongitude": 246.63,
+        "ObservationStartLatitude": 24.41,
+        "ObservationEndLatitude": 16.59,
+        "StationCode": "HAR",
+        "ObservationStartTime": 1737146108.84
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 88.2,
+      "EndHeight": 65.6,
+      "StartPositionNorth": 59.34,
+      "StartPositionEast": 7.973,
+      "EndPositionNorth": 59.451,
+      "EndPositionEast": 7.452
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.445,
+      "Eccentricity": 0.755,
+      "Inclination": 1.5,
+      "LongitudeOfAscendingNode": 117.7,
+      "ArgumentOfPerihelion": 105.7,
+      "MeanAnomaly": 341.8
+    }
+  },
+  {
+    "Id": "20250117_163652",
+    "Observations": [
+      {
+        "StationLongitude": 10.098182,
+        "StationLatitude": 59.090854,
+        "ObservationStartLongitude": 45.71,
+        "ObservationEndLongitude": 46.81,
+        "ObservationStartLatitude": 50.07,
+        "ObservationEndLatitude": 30.52,
+        "StationCode": "LAR",
+        "ObservationStartTime": 1737131811.73
+      },
+      {
+        "StationLongitude": 10.098182,
+        "StationLatitude": 59.090854,
+        "ObservationStartLongitude": 45.74,
+        "ObservationEndLongitude": 46.52,
+        "ObservationStartLatitude": 48.62,
+        "ObservationEndLatitude": 34.72,
+        "StationCode": "LAR",
+        "ObservationStartTime": 1737131812.06
+      },
+      {
+        "StationLongitude": 10.7517887,
+        "StationLatitude": 60.2119374,
+        "ObservationStartLongitude": 172.55,
+        "ObservationEndLongitude": 167.6,
+        "ObservationStartLatitude": 41.05,
+        "ObservationEndLatitude": 30.42,
+        "StationCode": "HAR",
+        "ObservationStartTime": 1737131813.68
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 77.8,
+      "EndHeight": 44.4,
+      "StartPositionNorth": 59.49,
+      "StartPositionEast": 10.907,
+      "EndPositionNorth": 59.543,
+      "EndPositionEast": 11.051
+    },
+    "OrbitalData": null
+  },
+  {
+    "Id": "20250126_062751",
+    "Observations": [
+      {
+        "StationLongitude": 10.098182,
+        "StationLatitude": 59.090854,
+        "ObservationStartLongitude": 202.59,
+        "ObservationEndLongitude": 205.05,
+        "ObservationStartLatitude": 66.31,
+        "ObservationEndLatitude": 62.79,
+        "StationCode": "LAR",
+        "ObservationStartTime": 1737872871.6
+      },
+      {
+        "StationLongitude": 10.098182,
+        "StationLatitude": 59.090854,
+        "ObservationStartLongitude": 201.63,
+        "ObservationEndLongitude": 206.51,
+        "ObservationStartLatitude": 67.02,
+        "ObservationEndLatitude": 60.09,
+        "StationCode": "LAR",
+        "ObservationStartTime": 1737872870.73
+      },
+      {
+        "StationLongitude": 10.664113,
+        "StationLatitude": 59.435213,
+        "ObservationStartLongitude": 212.53,
+        "ObservationEndLongitude": 213.88,
+        "ObservationStartLatitude": 46.16,
+        "ObservationEndLatitude": 40.68,
+        "StationCode": "mos",
+        "ObservationStartTime": 1737872872.28
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 74.8,
+      "EndHeight": 38.8,
+      "StartPositionNorth": 58.899,
+      "StartPositionEast": 10.004,
+      "EndPositionNorth": 58.913,
+      "EndPositionEast": 9.926
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.984,
+      "Eccentricity": 0.166,
+      "Inclination": 42.5,
+      "LongitudeOfAscendingNode": 306.2,
+      "ArgumentOfPerihelion": 185.2,
+      "MeanAnomaly": 356.3
+    }
+  },
+  {
+    "Id": "20250126_212457",
+    "Observations": [
+      {
+        "StationLongitude": 12.60255,
+        "StationLatitude": 61.05661,
+        "ObservationStartLongitude": 297.56,
+        "ObservationEndLongitude": 287.94,
+        "ObservationStartLatitude": 31.63,
+        "ObservationEndLatitude": 26.59,
+        "StationCode": "FIN",
+        "ObservationStartTime": 1737926697.92
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 346.69,
+        "ObservationEndLongitude": 338.11,
+        "ObservationStartLatitude": 37.8,
+        "ObservationEndLatitude": 37.28,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1737926697.4
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 99.5,
+      "EndHeight": 81.3,
+      "StartPositionNorth": 61.684,
+      "StartPositionEast": 10.029,
+      "EndPositionNorth": 61.46,
+      "EndPositionEast": 9.817
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.977,
+      "Eccentricity": 0.798,
+      "Inclination": 60.3,
+      "LongitudeOfAscendingNode": 306.8,
+      "ArgumentOfPerihelion": 190.7,
+      "MeanAnomaly": 359.3
+    }
+  },
+  {
+    "Id": "20250126_063456",
+    "Observations": [
+      {
+        "StationLongitude": 10.098182,
+        "StationLatitude": 59.090854,
+        "ObservationStartLongitude": 179.41,
+        "ObservationEndLongitude": 168.17,
+        "ObservationStartLatitude": 36.89,
+        "ObservationEndLatitude": 19.11,
+        "StationCode": "LAR",
+        "ObservationStartTime": 1737873296.59
+      },
+      {
+        "StationLongitude": 10.098182,
+        "StationLatitude": 59.090854,
+        "ObservationStartLongitude": 178.37,
+        "ObservationEndLongitude": 169.15,
+        "ObservationStartLatitude": 35.18,
+        "ObservationEndLatitude": 20.2,
+        "StationCode": "LAR",
+        "ObservationStartTime": 1737873298.4
+      },
+      {
+        "StationLongitude": 10.7517887,
+        "StationLatitude": 60.2119374,
+        "ObservationStartLongitude": 186.82,
+        "ObservationEndLongitude": 182.25,
+        "ObservationStartLatitude": 16.52,
+        "ObservationEndLatitude": 10.22,
+        "StationCode": "HAR",
+        "ObservationStartTime": 1737873297.72
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 182.76,
+        "ObservationEndLongitude": 180.18,
+        "ObservationStartLatitude": 12.55,
+        "ObservationEndLatitude": 8.78,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1737873299.68
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 91.9,
+      "EndHeight": 52.8,
+      "StartPositionNorth": 58.019,
+      "StartPositionEast": 10.116,
+      "EndPositionNorth": 57.798,
+      "EndPositionEast": 10.598
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.746,
+      "Eccentricity": 0.657,
+      "Inclination": 22.5,
+      "LongitudeOfAscendingNode": 306.2,
+      "ArgumentOfPerihelion": 247.1,
+      "MeanAnomaly": 347.2
+    }
+  },
+  {
+    "Id": "20250126_001711",
+    "Observations": [
+      {
+        "StationLongitude": 10.098182,
+        "StationLatitude": 59.090854,
+        "ObservationStartLongitude": 337.66,
+        "ObservationEndLongitude": 339.27,
+        "ObservationStartLatitude": 14.42,
+        "ObservationEndLatitude": 11.81,
+        "StationCode": "LAR",
+        "ObservationStartTime": 1737850631.26
+      },
+      {
+        "StationLongitude": 10.664113,
+        "StationLatitude": 59.435213,
+        "ObservationStartLongitude": 329.3,
+        "ObservationEndLongitude": 331.27,
+        "ObservationStartLatitude": 14.99,
+        "ObservationEndLatitude": 12.54,
+        "StationCode": "mos",
+        "ObservationStartTime": 1737850633.52
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 303.1,
+        "ObservationEndLongitude": 307.94,
+        "ObservationStartLatitude": 25.54,
+        "ObservationEndLatitude": 21.46,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1737850633.0
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 76.5,
+      "EndHeight": 62.8,
+      "StartPositionNorth": 61.328,
+      "StartPositionEast": 8.181,
+      "EndPositionNorth": 61.458,
+      "EndPositionEast": 8.3
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.724,
+      "Eccentricity": 0.608,
+      "Inclination": 5.8,
+      "LongitudeOfAscendingNode": 126.0,
+      "ArgumentOfPerihelion": 72.6,
+      "MeanAnomaly": 342.4
+    }
+  },
+  {
+    "Id": "20250126_233145",
+    "Observations": [
+      {
+        "StationLongitude": 10.428267,
+        "StationLatitude": 63.420586,
+        "ObservationStartLongitude": 167.41,
+        "ObservationEndLongitude": 167.64,
+        "ObservationStartLatitude": 4.21,
+        "ObservationEndLatitude": 3.35,
+        "StationCode": "TRO",
+        "ObservationStartTime": 1737934305.57
+      },
+      {
+        "StationLongitude": 7.96403523,
+        "StationLatitude": 58.0945324,
+        "ObservationStartLongitude": 98.83,
+        "ObservationEndLongitude": 102.38,
+        "ObservationStartLatitude": 17.13,
+        "ObservationEndLatitude": 13.93,
+        "StationCode": "KRI",
+        "ObservationStartTime": 1737934305.28
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 100.7,
+      "EndHeight": 78.1,
+      "StartPositionNorth": 57.585,
+      "StartPositionEast": 12.914,
+      "EndPositionNorth": 57.369,
+      "EndPositionEast": 12.87
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.985,
+      "Eccentricity": 0.73,
+      "Inclination": 30.0,
+      "LongitudeOfAscendingNode": 306.9,
+      "ArgumentOfPerihelion": 180.3,
+      "MeanAnomaly": 360.0
+    }
+  },
+  {
+    "Id": "20250105_132650",
+    "Observations": [
+      {
+        "StationLongitude": 18.13227,
+        "StationLatitude": 69.141802,
+        "ObservationStartLongitude": 273.47,
+        "ObservationEndLongitude": 293.79,
+        "ObservationStartLatitude": 70.42,
+        "ObservationEndLatitude": 38.54,
+        "StationCode": "SOR",
+        "ObservationStartTime": 1736083608.43
+      },
+      {
+        "StationLongitude": 18.132711,
+        "StationLatitude": 69.141802,
+        "ObservationStartLongitude": 271.1,
+        "ObservationEndLongitude": 294.01,
+        "ObservationStartLatitude": 72.33,
+        "ObservationEndLatitude": 38.91,
+        "StationCode": "SOR",
+        "ObservationStartTime": 1736083608.59
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": -81.3,
+      "EndHeight": -136.5,
+      "StartPositionNorth": 69.073,
+      "StartPositionEast": 18.748,
+      "EndPositionNorth": 66.759,
+      "EndPositionEast": 26.512
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.088,
+      "Eccentricity": 0.835,
+      "Inclination": 48.6,
+      "LongitudeOfAscendingNode": 285.1,
+      "ArgumentOfPerihelion": 0.4,
+      "MeanAnomaly": 177.8
+    }
+  },
+  {
+    "Id": "20250105_053625",
+    "Observations": [
+      {
+        "StationLongitude": 10.7517887,
+        "StationLatitude": 60.2119374,
+        "ObservationStartLongitude": 336.91,
+        "ObservationEndLongitude": 344.56,
+        "ObservationStartLatitude": 22.8,
+        "ObservationEndLatitude": 21.24,
+        "StationCode": "HAR",
+        "ObservationStartTime": 1736055385.56
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 32.68,
+        "ObservationEndLongitude": 42.52,
+        "ObservationStartLatitude": 27.57,
+        "ObservationEndLatitude": 25.57,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1736055386.52
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 6.5,
+      "EndHeight": 21.0,
+      "StartPositionNorth": 60.519,
+      "StartPositionEast": 10.495,
+      "EndPositionNorth": 60.894,
+      "EndPositionEast": 10.956
+    },
+    "OrbitalData": null
+  },
+  {
+    "Id": "20250105_015211",
+    "Observations": [
+      {
+        "StationLongitude": 12.60255,
+        "StationLatitude": 61.05661,
+        "ObservationStartLongitude": 198.28,
+        "ObservationEndLongitude": 195.32,
+        "ObservationStartLatitude": 36.59,
+        "ObservationEndLatitude": 33.02,
+        "StationCode": "FIN",
+        "ObservationStartTime": 1736041932.4
+      },
+      {
+        "StationLongitude": 10.649639,
+        "StationLatitude": 59.97056,
+        "ObservationStartLongitude": 90.02,
+        "ObservationEndLongitude": 86.56,
+        "ObservationStartLatitude": 53.76,
+        "ObservationEndLatitude": 47.33,
+        "StationCode": "OSL",
+        "ObservationStartTime": 1736041932.0
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 133.14,
+        "ObservationEndLongitude": 128.14,
+        "ObservationStartLatitude": 42.83,
+        "ObservationEndLatitude": 37.46,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1736041932.96
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 98.2,
+      "EndHeight": 80.2,
+      "StartPositionNorth": 59.962,
+      "StartPositionEast": 11.885,
+      "EndPositionNorth": 60.02,
+      "EndPositionEast": 12.038
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.471,
+      "Eccentricity": 0.924,
+      "Inclination": 13.7,
+      "LongitudeOfAscendingNode": 284.6,
+      "ArgumentOfPerihelion": 274.9,
+      "MeanAnomaly": 357.5
+    }
+  },
+  {
+    "Id": "20250105_060630",
+    "Observations": [
+      {
+        "StationLongitude": 10.649639,
+        "StationLatitude": 59.97056,
+        "ObservationStartLongitude": 315.11,
+        "ObservationEndLongitude": 315.99,
+        "ObservationStartLatitude": 17.2,
+        "ObservationEndLatitude": 12.6,
+        "StationCode": "OSL",
+        "ObservationStartTime": 1736057191.24
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 303.86,
+        "ObservationEndLongitude": 306.36,
+        "ObservationStartLatitude": 22.73,
+        "ObservationEndLatitude": 16.76,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1736057190.92
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 111.2,
+      "EndHeight": 87.7,
+      "StartPositionNorth": 61.788,
+      "StartPositionEast": 6.654,
+      "EndPositionNorth": 62.12,
+      "EndPositionEast": 6.06
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.277,
+      "Eccentricity": 0.918,
+      "Inclination": 110.5,
+      "LongitudeOfAscendingNode": 284.8,
+      "ArgumentOfPerihelion": 59.9,
+      "MeanAnomaly": 6.0
+    }
+  },
+  {
+    "Id": "20250105_020042",
+    "Observations": [
+      {
+        "StationLongitude": 10.7517887,
+        "StationLatitude": 60.2119374,
+        "ObservationStartLongitude": 100.38,
+        "ObservationEndLongitude": 106.5,
+        "ObservationStartLatitude": 36.57,
+        "ObservationEndLatitude": 34.64,
+        "StationCode": "HAR",
+        "ObservationStartTime": 1736042443.28
+      },
+      {
+        "StationLongitude": 10.7517887,
+        "StationLatitude": 60.2119374,
+        "ObservationStartLongitude": 100.38,
+        "ObservationEndLongitude": 106.82,
+        "ObservationStartLatitude": 36.57,
+        "ObservationEndLatitude": 34.59,
+        "StationCode": "HAR",
+        "ObservationStartTime": 1736042442.36
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 119.45,
+        "ObservationEndLongitude": 123.48,
+        "ObservationStartLatitude": 31.06,
+        "ObservationEndLatitude": 28.91,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1736042444.44
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 60.3,
+      "EndHeight": 56.3,
+      "StartPositionNorth": 60.162,
+      "StartPositionEast": 12.094,
+      "EndPositionNorth": 59.998,
+      "EndPositionEast": 12.117
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.967,
+      "Eccentricity": 0.59,
+      "Inclination": 7.6,
+      "LongitudeOfAscendingNode": 284.6,
+      "ArgumentOfPerihelion": 162.7,
+      "MeanAnomaly": 3.6
+    }
+  },
+  {
+    "Id": "20250105_001229",
+    "Observations": [
+      {
+        "StationLongitude": 10.098182,
+        "StationLatitude": 59.090854,
+        "ObservationStartLongitude": 9.29,
+        "ObservationEndLongitude": 9.04,
+        "ObservationStartLatitude": 12.74,
+        "ObservationEndLatitude": 6.82,
+        "StationCode": "LAR",
+        "ObservationStartTime": 1736035949.53
+      },
+      {
+        "StationLongitude": 10.7517887,
+        "StationLatitude": 60.2119374,
+        "ObservationStartLongitude": 5.66,
+        "ObservationEndLongitude": 5.73,
+        "ObservationStartLatitude": 22.65,
+        "ObservationEndLatitude": 18.67,
+        "StationCode": "HAR",
+        "ObservationStartTime": 1736035950.32
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 92.6,
+      "EndHeight": 56.3,
+      "StartPositionNorth": 62.082,
+      "StartPositionEast": 11.147,
+      "EndPositionNorth": 62.407,
+      "EndPositionEast": 11.236
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.44,
+      "Eccentricity": 0.807,
+      "Inclination": 6.5,
+      "LongitudeOfAscendingNode": 104.6,
+      "ArgumentOfPerihelion": 103.7,
+      "MeanAnomaly": 347.6
+    }
+  },
+  {
+    "Id": "20250105_020349",
+    "Observations": [
+      {
+        "StationLongitude": 10.428267,
+        "StationLatitude": 63.420586,
+        "ObservationStartLongitude": 228.98,
+        "ObservationEndLongitude": 232.67,
+        "ObservationStartLatitude": 31.49,
+        "ObservationEndLatitude": 27.43,
+        "StationCode": "TRO",
+        "ObservationStartTime": 1736042629.26
+      },
+      {
+        "StationLongitude": 12.60255,
+        "StationLatitude": 61.05661,
+        "ObservationStartLongitude": 309.04,
+        "ObservationEndLongitude": 316.85,
+        "ObservationStartLatitude": 16.37,
+        "ObservationEndLatitude": 9.87,
+        "StationCode": "FIN",
+        "ObservationStartTime": 1736042630.2
+      },
+      {
+        "StationLongitude": 10.649639,
+        "StationLatitude": 59.97056,
+        "ObservationStartLongitude": 336.78,
+        "ObservationEndLongitude": 339.56,
+        "ObservationStartLatitude": 15.39,
+        "ObservationEndLatitude": 12.35,
+        "StationCode": "OSL",
+        "ObservationStartTime": 1736042630.84
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 95.4,
+      "EndHeight": 53.7,
+      "StartPositionNorth": 62.527,
+      "StartPositionEast": 8.262,
+      "EndPositionNorth": 62.863,
+      "EndPositionEast": 8.851
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.428,
+      "Eccentricity": 0.83,
+      "Inclination": 5.7,
+      "LongitudeOfAscendingNode": 104.7,
+      "ArgumentOfPerihelion": 104.2,
+      "MeanAnomaly": 349.5
+    }
+  },
+  {
+    "Id": "20250105_013549",
+    "Observations": [
+      {
+        "StationLongitude": 14.6447,
+        "StationLatitude": 60.2411,
+        "ObservationStartLongitude": 197.3,
+        "ObservationEndLongitude": 220.8,
+        "ObservationStartLatitude": 58.3,
+        "ObservationEndLatitude": 50.4,
+        "StationCode": "HBRG",
+        "ObservationStartTime": 1736040949.06
+      },
+      {
+        "StationLongitude": 12.60255,
+        "StationLatitude": 61.05661,
+        "ObservationStartLongitude": 144.7,
+        "ObservationEndLongitude": 151.4,
+        "ObservationStartLatitude": 30.08,
+        "ObservationEndLatitude": 29.57,
+        "StationCode": "FIN",
+        "ObservationStartTime": 1736040949.56
+      },
+      {
+        "StationLongitude": 10.7517887,
+        "StationLatitude": 60.2119374,
+        "ObservationStartLongitude": 105.8,
+        "ObservationEndLongitude": 108.5,
+        "ObservationStartLatitude": 26.23,
+        "ObservationEndLatitude": 26.99,
+        "StationCode": "HAR",
+        "ObservationStartTime": 1736040950.12
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 114.97,
+        "ObservationEndLongitude": 119.4,
+        "ObservationStartLatitude": 23.85,
+        "ObservationEndLatitude": 23.83,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1736040950.28
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 113.7,
+      "EndHeight": 84.4,
+      "StartPositionNorth": 59.667,
+      "StartPositionEast": 14.527,
+      "EndPositionNorth": 59.74,
+      "EndPositionEast": 13.402
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.913,
+      "Eccentricity": 0.783,
+      "Inclination": 128.5,
+      "LongitudeOfAscendingNode": 284.6,
+      "ArgumentOfPerihelion": 146.9,
+      "MeanAnomaly": 2.6
+    }
+  },
+  {
+    "Id": "20250105_052737",
+    "Observations": [
+      {
+        "StationLongitude": 12.60255,
+        "StationLatitude": 61.05661,
+        "ObservationStartLongitude": 158.38,
+        "ObservationEndLongitude": 131.45,
+        "ObservationStartLatitude": 69.65,
+        "ObservationEndLatitude": 63.85,
+        "StationCode": "FIN",
+        "ObservationStartTime": 1736054857.92
+      },
+      {
+        "StationLongitude": 10.7517887,
+        "StationLatitude": 60.2119374,
+        "ObservationStartLongitude": 59.85,
+        "ObservationEndLongitude": 60.84,
+        "ObservationStartLatitude": 33.69,
+        "ObservationEndLatitude": 27.62,
+        "StationCode": "HAR",
+        "ObservationStartTime": 1736054858.2
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 79.54,
+        "ObservationEndLongitude": 78.46,
+        "ObservationStartLatitude": 34.83,
+        "ObservationEndLatitude": 28.86,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1736054857.04
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 89.9,
+      "EndHeight": 77.7,
+      "StartPositionNorth": 60.783,
+      "StartPositionEast": 12.819,
+      "EndPositionNorth": 60.833,
+      "EndPositionEast": 13.119
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.148,
+      "Eccentricity": 0.827,
+      "Inclination": 8.1,
+      "LongitudeOfAscendingNode": 284.8,
+      "ArgumentOfPerihelion": 331.3,
+      "MeanAnomaly": 306.2
+    }
+  },
+  {
+    "Id": "20250105_020350",
+    "Observations": [
+      {
+        "StationLongitude": 12.60255,
+        "StationLatitude": 61.05661,
+        "ObservationStartLongitude": 308.79,
+        "ObservationEndLongitude": 316.02,
+        "ObservationStartLatitude": 16.04,
+        "ObservationEndLatitude": 10.09,
+        "StationCode": "FIN",
+        "ObservationStartTime": 1736042629.24
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 31.21,
+        "ObservationEndLongitude": 34.23,
+        "ObservationStartLatitude": 18.74,
+        "ObservationEndLatitude": 15.46,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1736042629.36
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 32.2,
+      "EndHeight": 17.1,
+      "StartPositionNorth": 61.411,
+      "StartPositionEast": 11.483,
+      "EndPositionNorth": 61.462,
+      "EndPositionEast": 11.881
+    },
+    "OrbitalData": null
+  },
+  {
+    "Id": "20250105_010250",
+    "Observations": [
+      {
+        "StationLongitude": 10.649639,
+        "StationLatitude": 59.97056,
+        "ObservationStartLongitude": 262.0,
+        "ObservationEndLongitude": 241.0,
+        "ObservationStartLatitude": 70.85,
+        "ObservationEndLatitude": 62.09,
+        "StationCode": "OSL",
+        "ObservationStartTime": 1736038971.04
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 199.46,
+        "ObservationEndLongitude": 198.92,
+        "ObservationStartLatitude": 47.41,
+        "ObservationEndLatitude": 40.06,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1736038970.28
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 91.7,
+      "EndHeight": 76.9,
+      "StartPositionNorth": 59.93,
+      "StartPositionEast": 10.096,
+      "EndPositionNorth": 59.795,
+      "EndPositionEast": 10.026
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.983,
+      "Eccentricity": 0.636,
+      "Inclination": 33.9,
+      "LongitudeOfAscendingNode": 284.6,
+      "ArgumentOfPerihelion": 182.5,
+      "MeanAnomaly": 359.6
+    }
+  },
+  {
+    "Id": "20250105_031015",
+    "Observations": [
+      {
+        "StationLongitude": 10.649639,
+        "StationLatitude": 59.97056,
+        "ObservationStartLongitude": 290.49,
+        "ObservationEndLongitude": 298.34,
+        "ObservationStartLatitude": 14.82,
+        "ObservationEndLatitude": 6.71,
+        "StationCode": "OSL",
+        "ObservationStartTime": 1736046614.4
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 277.64,
+        "ObservationEndLongitude": 285.09,
+        "ObservationStartLatitude": 16.01,
+        "ObservationEndLatitude": 7.76,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1736046615.52
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 91.4,
+      "EndHeight": 41.6,
+      "StartPositionNorth": 60.841,
+      "StartPositionEast": 5.286,
+      "EndPositionNorth": 61.132,
+      "EndPositionEast": 5.872
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.245,
+      "Eccentricity": 0.878,
+      "Inclination": 5.6,
+      "LongitudeOfAscendingNode": 284.6,
+      "ArgumentOfPerihelion": 307.4,
+      "MeanAnomaly": 346.4
+    }
+  },
+  {
+    "Id": "20250105_015212",
+    "Observations": [
+      {
+        "StationLongitude": 10.7517887,
+        "StationLatitude": 60.2119374,
+        "ObservationStartLongitude": 114.14,
+        "ObservationEndLongitude": 106.33,
+        "ObservationStartLatitude": 55.34,
+        "ObservationEndLatitude": 46.89,
+        "StationCode": "HAR",
+        "ObservationStartTime": 1736041931.12
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 134.05,
+        "ObservationEndLongitude": 127.79,
+        "ObservationStartLatitude": 43.79,
+        "ObservationEndLatitude": 37.0,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1736041931.6
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 101.1,
+      "EndHeight": 80.5,
+      "StartPositionNorth": 59.957,
+      "StartPositionEast": 11.866,
+      "EndPositionNorth": 60.021,
+      "EndPositionEast": 12.04
+    },
+    "OrbitalData": null
+  },
+  {
+    "Id": "20250105_042025",
+    "Observations": [
+      {
+        "StationLongitude": 14.6447,
+        "StationLatitude": 60.2411,
+        "ObservationStartLongitude": 263.9,
+        "ObservationEndLongitude": 269.1,
+        "ObservationStartLatitude": 35.5,
+        "ObservationEndLatitude": 29.2,
+        "StationCode": "HBRG",
+        "ObservationStartTime": 1736050825.09
+      },
+      {
+        "StationLongitude": 12.60255,
+        "StationLatitude": 61.05661,
+        "ObservationStartLongitude": 184.85,
+        "ObservationEndLongitude": 202.06,
+        "ObservationStartLatitude": 41.24,
+        "ObservationEndLatitude": 38.52,
+        "StationCode": "FIN",
+        "ObservationStartTime": 1736050826.56
+      },
+      {
+        "StationLongitude": 10.649639,
+        "StationLatitude": 59.97056,
+        "ObservationStartLongitude": 92.56,
+        "ObservationEndLongitude": 81.3,
+        "ObservationStartLatitude": 47.51,
+        "ObservationEndLatitude": 50.03,
+        "StationCode": "OSL",
+        "ObservationStartTime": 1736050826.48
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 124.88,
+        "ObservationEndLongitude": 124.37,
+        "ObservationStartLatitude": 40.99,
+        "ObservationEndLatitude": 45.64,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1736050826.52
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 116.7,
+      "EndHeight": 89.4,
+      "StartPositionNorth": 59.915,
+      "StartPositionEast": 12.503,
+      "EndPositionNorth": 60.178,
+      "EndPositionEast": 11.839
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.545,
+      "Eccentricity": 0.727,
+      "Inclination": 124.5,
+      "LongitudeOfAscendingNode": 284.7,
+      "ArgumentOfPerihelion": 86.6,
+      "MeanAnomaly": 15.9
+    }
+  },
+  {
+    "Id": "20250105_032012",
+    "Observations": [
+      {
+        "StationLongitude": 10.7517887,
+        "StationLatitude": 60.2119374,
+        "ObservationStartLongitude": 199.27,
+        "ObservationEndLongitude": 213.24,
+        "ObservationStartLatitude": 78.25,
+        "ObservationEndLatitude": 68.49,
+        "StationCode": "HAR",
+        "ObservationStartTime": 1736047213.48
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 87.6,
+      "EndHeight": 36.8,
+      "StartPositionNorth": 60.106,
+      "StartPositionEast": 10.746,
+      "EndPositionNorth": 60.105,
+      "EndPositionEast": 10.612
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.716,
+      "Eccentricity": 0.614,
+      "Inclination": 61.9,
+      "LongitudeOfAscendingNode": 284.7,
+      "ArgumentOfPerihelion": 253.4,
+      "MeanAnomaly": 342.6
+    }
+  },
+  {
+    "Id": "20250105_032013",
+    "Observations": [
+      {
+        "StationLongitude": 12.60255,
+        "StationLatitude": 61.05661,
+        "ObservationStartLongitude": 224.79,
+        "ObservationEndLongitude": 225.59,
+        "ObservationStartLatitude": 29.76,
+        "ObservationEndLatitude": 23.46,
+        "StationCode": "FIN",
+        "ObservationStartTime": 1736047212.48
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 174.92,
+        "ObservationEndLongitude": 184.77,
+        "ObservationStartLatitude": 57.66,
+        "ObservationEndLatitude": 47.41,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1736047212.0
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 97.8,
+      "EndHeight": 75.6,
+      "StartPositionNorth": 60.059,
+      "StartPositionEast": 10.665,
+      "EndPositionNorth": 59.992,
+      "EndPositionEast": 10.468
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.977,
+      "Eccentricity": 0.755,
+      "Inclination": 57.9,
+      "LongitudeOfAscendingNode": 284.7,
+      "ArgumentOfPerihelion": 189.6,
+      "MeanAnomaly": 359.1
+    }
+  },
+  {
+    "Id": "20250112_053126",
+    "Observations": [
+      {
+        "StationLongitude": 10.664113,
+        "StationLatitude": 59.435213,
+        "ObservationStartLongitude": 93.41,
+        "ObservationEndLongitude": 84.19,
+        "ObservationStartLatitude": 28.58,
+        "ObservationEndLatitude": 27.26,
+        "StationCode": "mos",
+        "ObservationStartTime": 1736659887.72
+      },
+      {
+        "StationLongitude": 10.7517887,
+        "StationLatitude": 60.2119374,
+        "ObservationStartLongitude": 116.04,
+        "ObservationEndLongitude": 112.2,
+        "ObservationStartLatitude": 25.88,
+        "ObservationEndLatitude": 26.15,
+        "StationCode": "HAR",
+        "ObservationStartTime": 1736659886.48
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 90.5,
+      "EndHeight": 97.1,
+      "StartPositionNorth": 59.319,
+      "StartPositionEast": 13.473,
+      "EndPositionNorth": 59.561,
+      "EndPositionEast": 13.848
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.957,
+      "Eccentricity": 4.036,
+      "Inclination": 22.4,
+      "LongitudeOfAscendingNode": 291.9,
+      "ArgumentOfPerihelion": 165.0,
+      "MeanAnomaly": 36.1
+    }
+  },
+  {
+    "Id": "20250112_034122",
+    "Observations": [
+      {
+        "StationLongitude": 15.4246,
+        "StationLatitude": 60.4941,
+        "ObservationStartLongitude": 308.2,
+        "ObservationEndLongitude": 327.0,
+        "ObservationStartLatitude": 57.0,
+        "ObservationEndLatitude": 61.0,
+        "StationCode": "BOR",
+        "ObservationStartTime": 1736653282.65
+      },
+      {
+        "StationLongitude": 10.098182,
+        "StationLatitude": 59.090854,
+        "ObservationStartLongitude": 50.05,
+        "ObservationEndLongitude": 53.0,
+        "ObservationStartLatitude": 15.02,
+        "ObservationEndLatitude": 11.11,
+        "StationCode": "LAR",
+        "ObservationStartTime": 1736653281.73
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 82.95,
+        "ObservationEndLongitude": 82.67,
+        "ObservationStartLatitude": 23.12,
+        "ObservationEndLatitude": 15.8,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1736653281.92
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 92.3,
+      "EndHeight": 75.0,
+      "StartPositionNorth": 60.774,
+      "StartPositionEast": 14.296,
+      "EndPositionNorth": 60.805,
+      "EndPositionEast": 15.017
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.683,
+      "Eccentricity": 0.721,
+      "Inclination": 5.6,
+      "LongitudeOfAscendingNode": 111.9,
+      "ArgumentOfPerihelion": 74.3,
+      "MeanAnomaly": 349.1
+    }
+  },
+  {
+    "Id": "20250112_064021",
+    "Observations": [
+      {
+        "StationLongitude": 10.098182,
+        "StationLatitude": 59.090854,
+        "ObservationStartLongitude": 206.2,
+        "ObservationEndLongitude": 214.55,
+        "ObservationStartLatitude": 28.43,
+        "ObservationEndLatitude": 22.53,
+        "StationCode": "LAR",
+        "ObservationStartTime": 1736664021.46
+      },
+      {
+        "StationLongitude": 10.098182,
+        "StationLatitude": 59.090854,
+        "ObservationStartLongitude": 205.72,
+        "ObservationEndLongitude": 212.71,
+        "ObservationStartLatitude": 28.51,
+        "ObservationEndLatitude": 23.72,
+        "StationCode": "LAR",
+        "ObservationStartTime": 1736664023.04
+      },
+      {
+        "StationLongitude": 10.098182,
+        "StationLatitude": 59.090854,
+        "ObservationStartLongitude": 206.58,
+        "ObservationEndLongitude": 213.36,
+        "ObservationStartLatitude": 27.82,
+        "ObservationEndLatitude": 23.12,
+        "StationCode": "LAR",
+        "ObservationStartTime": 1736664021.33
+      },
+      {
+        "StationLongitude": 8.65566,
+        "StationLatitude": 59.85112,
+        "ObservationStartLongitude": 177.85,
+        "ObservationEndLongitude": 183.16,
+        "ObservationStartLatitude": 20.11,
+        "ObservationEndLatitude": 17.02,
+        "StationCode": "GAU",
+        "ObservationStartTime": 1736664023.12
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 97.2,
+      "EndHeight": 76.9,
+      "StartPositionNorth": 57.693,
+      "StartPositionEast": 8.846,
+      "EndPositionNorth": 57.761,
+      "EndPositionEast": 8.404
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.675,
+      "Eccentricity": 0.632,
+      "Inclination": 32.5,
+      "LongitudeOfAscendingNode": 292.0,
+      "ArgumentOfPerihelion": 101.0,
+      "MeanAnomaly": 18.2
+    }
+  },
+  {
+    "Id": "20250115_011747",
+    "Observations": [
+      {
+        "StationLongitude": 10.098182,
+        "StationLatitude": 59.090854,
+        "ObservationStartLongitude": 25.29,
+        "ObservationEndLongitude": 25.19,
+        "ObservationStartLatitude": 36.58,
+        "ObservationEndLatitude": 34.82,
+        "StationCode": "LAR",
+        "ObservationStartTime": 1736903867.79
+      },
+      {
+        "StationLongitude": 10.098182,
+        "StationLatitude": 59.090854,
+        "ObservationStartLongitude": 26.69,
+        "ObservationEndLongitude": 25.02,
+        "ObservationStartLatitude": 37.61,
+        "ObservationEndLatitude": 34.46,
+        "StationCode": "LAR",
+        "ObservationStartTime": 1736903868.24
+      },
+      {
+        "StationLongitude": 10.098182,
+        "StationLatitude": 59.090854,
+        "ObservationStartLongitude": 25.26,
+        "ObservationEndLongitude": 25.09,
+        "ObservationStartLatitude": 36.45,
+        "ObservationEndLatitude": 34.3,
+        "StationCode": "LAR",
+        "ObservationStartTime": 1736903867.73
+      },
+      {
+        "StationLongitude": 10.649639,
+        "StationLatitude": 59.97056,
+        "ObservationStartLongitude": 63.38,
+        "ObservationEndLongitude": 93.53,
+        "ObservationStartLatitude": 75.3,
+        "ObservationEndLatitude": 78.67,
+        "StationCode": "OSL",
+        "ObservationStartTime": 1736903869.12
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 136.2,
+      "EndHeight": 33.1,
+      "StartPositionNorth": 60.114,
+      "StartPositionEast": 11.176,
+      "EndPositionNorth": 59.48,
+      "EndPositionEast": 10.457
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.973,
+      "Eccentricity": 6.098,
+      "Inclination": 71.1,
+      "LongitudeOfAscendingNode": 294.8,
+      "ArgumentOfPerihelion": 189.1,
+      "MeanAnomaly": -39.4
+    }
+  },
+  {
+    "Id": "20250124_025152",
+    "Observations": [
+      {
+        "StationLongitude": 18.132711,
+        "StationLatitude": 69.141802,
+        "ObservationStartLongitude": 156.19,
+        "ObservationEndLongitude": 154.16,
+        "ObservationStartLatitude": 26.23,
+        "ObservationEndLatitude": 18.48,
+        "StationCode": "SOR",
+        "ObservationStartTime": 1737687113.56
+      },
+      {
+        "StationLongitude": 20.3633,
+        "StationLatitude": 69.3481,
+        "ObservationStartLongitude": 190.85,
+        "ObservationEndLongitude": 188.53,
+        "ObservationStartLatitude": 24.02,
+        "ObservationEndLatitude": 18.95,
+        "StationCode": "SKI",
+        "ObservationStartTime": 1737687112.72
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 78.4,
+      "EndHeight": 56.6,
+      "StartPositionNorth": 67.875,
+      "StartPositionEast": 19.608,
+      "EndPositionNorth": 67.827,
+      "EndPositionEast": 19.807
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.891,
+      "Eccentricity": 0.564,
+      "Inclination": 16.2,
+      "LongitudeOfAscendingNode": 304.0,
+      "ArgumentOfPerihelion": 222.5,
+      "MeanAnomaly": 349.5
+    }
+  },
+  {
+    "Id": "20250124_230859",
+    "Observations": [
+      {
+        "StationLongitude": 18.132711,
+        "StationLatitude": 69.141802,
+        "ObservationStartLongitude": 222.48,
+        "ObservationEndLongitude": 221.17,
+        "ObservationStartLatitude": 38.17,
+        "ObservationEndLatitude": 30.72,
+        "StationCode": "SOR",
+        "ObservationStartTime": 1737760138.24
+      },
+      {
+        "StationLongitude": 20.3633,
+        "StationLatitude": 69.3481,
+        "ObservationStartLongitude": 241.21,
+        "ObservationEndLongitude": 240.69,
+        "ObservationStartLatitude": 21.07,
+        "ObservationEndLatitude": 17.27,
+        "StationCode": "SKI",
+        "ObservationStartTime": 1737760138.44
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 67.8,
+      "EndHeight": 51.0,
+      "StartPositionNorth": 68.582,
+      "StartPositionEast": 16.742,
+      "EndPositionNorth": 68.568,
+      "EndPositionEast": 16.774
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.922,
+      "Eccentricity": 0.528,
+      "Inclination": 17.4,
+      "LongitudeOfAscendingNode": 304.9,
+      "ArgumentOfPerihelion": 215.4,
+      "MeanAnomaly": 350.3
+    }
+  },
+  {
+    "Id": "20250124_055636",
+    "Observations": [
+      {
+        "StationLongitude": 18.132711,
+        "StationLatitude": 69.141802,
+        "ObservationStartLongitude": 190.64,
+        "ObservationEndLongitude": 192.37,
+        "ObservationStartLatitude": 33.86,
+        "ObservationEndLatitude": 24.85,
+        "StationCode": "SOR",
+        "ObservationStartTime": 1737698197.44
+      },
+      {
+        "StationLongitude": 20.3633,
+        "StationLatitude": 69.3481,
+        "ObservationStartLongitude": 218.59,
+        "ObservationEndLongitude": 219.14,
+        "ObservationStartLatitude": 24.0,
+        "ObservationEndLatitude": 18.05,
+        "StationCode": "SKI",
+        "ObservationStartTime": 1737698196.68
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 88.6,
+      "EndHeight": 62.9,
+      "StartPositionNorth": 68.009,
+      "StartPositionEast": 17.566,
+      "EndPositionNorth": 67.988,
+      "EndPositionEast": 17.459
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.981,
+      "Eccentricity": 0.513,
+      "Inclination": 34.4,
+      "LongitudeOfAscendingNode": 304.1,
+      "ArgumentOfPerihelion": 187.7,
+      "MeanAnomaly": 357.9
+    }
+  },
+  {
+    "Id": "20250114_021509",
+    "Observations": [
+      {
+        "StationLongitude": 10.098182,
+        "StationLatitude": 59.090854,
+        "ObservationStartLongitude": 345.16,
+        "ObservationEndLongitude": 341.78,
+        "ObservationStartLatitude": 13.18,
+        "ObservationEndLatitude": 8.96,
+        "StationCode": "LAR",
+        "ObservationStartTime": 1736820909.06
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 31.95,
+        "ObservationEndLongitude": 28.11,
+        "ObservationStartLatitude": 26.08,
+        "ObservationEndLatitude": 17.36,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1736820909.96
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": -92.7,
+      "EndHeight": 13.1,
+      "StartPositionNorth": 59.064,
+      "StartPositionEast": 8.725,
+      "EndPositionNorth": 59.563,
+      "EndPositionEast": 9.851
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.981,
+      "Eccentricity": 1.393,
+      "Inclination": 63.6,
+      "LongitudeOfAscendingNode": 293.8,
+      "ArgumentOfPerihelion": 185.1,
+      "MeanAnomaly": -0.8
+    }
+  },
+  {
+    "Id": "20250114_213009",
+    "Observations": [
+      {
+        "StationLongitude": 12.60255,
+        "StationLatitude": 61.05661,
+        "ObservationStartLongitude": 223.31,
+        "ObservationEndLongitude": 226.09,
+        "ObservationStartLatitude": 35.96,
+        "ObservationEndLatitude": 33.02,
+        "StationCode": "FIN",
+        "ObservationStartTime": 1736890210.24
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 91.8,
+      "EndHeight": 77.6,
+      "StartPositionNorth": 60.255,
+      "StartPositionEast": 11.128,
+      "EndPositionNorth": 60.323,
+      "EndPositionEast": 11.076
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.775,
+      "Eccentricity": 0.742,
+      "Inclination": 3.0,
+      "LongitudeOfAscendingNode": 294.6,
+      "ArgumentOfPerihelion": 240.0,
+      "MeanAnomaly": 353.0
+    }
+  },
+  {
+    "Id": "20250114_165626",
+    "Observations": [
+      {
+        "StationLongitude": 10.098182,
+        "StationLatitude": 59.090854,
+        "ObservationStartLongitude": 165.59,
+        "ObservationEndLongitude": 122.0,
+        "ObservationStartLatitude": 54.15,
+        "ObservationEndLatitude": 40.6,
+        "StationCode": "LAR",
+        "ObservationStartTime": 1736873786.06
+      },
+      {
+        "StationLongitude": 10.664113,
+        "StationLatitude": 59.435213,
+        "ObservationStartLongitude": 189.96,
+        "ObservationEndLongitude": 179.29,
+        "ObservationStartLatitude": 41.32,
+        "ObservationEndLatitude": 41.54,
+        "StationCode": "mos",
+        "ObservationStartTime": 1736873786.28
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 94.6,
+      "EndHeight": 74.7,
+      "StartPositionNorth": 58.505,
+      "StartPositionEast": 10.352,
+      "EndPositionNorth": 58.678,
+      "EndPositionEast": 11.348
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.796,
+      "Eccentricity": 0.72,
+      "Inclination": 8.0,
+      "LongitudeOfAscendingNode": 294.4,
+      "ArgumentOfPerihelion": 123.0,
+      "MeanAnomaly": 7.5
+    }
+  },
+  {
+    "Id": "20250114_213010",
+    "Observations": [
+      {
+        "StationLongitude": 12.60255,
+        "StationLatitude": 61.05661,
+        "ObservationStartLongitude": 223.12,
+        "ObservationEndLongitude": 226.81,
+        "ObservationStartLatitude": 36.2,
+        "ObservationEndLatitude": 32.2,
+        "StationCode": "FIN",
+        "ObservationStartTime": 1736890209.76
+      },
+      {
+        "StationLongitude": 10.7517887,
+        "StationLatitude": 60.2119374,
+        "ObservationStartLongitude": 76.86,
+        "ObservationEndLongitude": 55.42,
+        "ObservationStartLatitude": 76.59,
+        "ObservationEndLatitude": 73.99,
+        "StationCode": "HAR",
+        "ObservationStartTime": 1736890209.64
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 92.0,
+      "EndHeight": 75.3,
+      "StartPositionNorth": 60.255,
+      "StartPositionEast": 11.13,
+      "EndPositionNorth": 60.334,
+      "EndPositionEast": 11.069
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.799,
+      "Eccentricity": 0.606,
+      "Inclination": 2.3,
+      "LongitudeOfAscendingNode": 294.6,
+      "ArgumentOfPerihelion": 239.8,
+      "MeanAnomaly": 346.5
+    }
+  },
+  {
+    "Id": "20250121_193554",
+    "Observations": [
+      {
+        "StationLongitude": 18.132711,
+        "StationLatitude": 69.141802,
+        "ObservationStartLongitude": 84.52,
+        "ObservationEndLongitude": 81.99,
+        "ObservationStartLatitude": 30.78,
+        "ObservationEndLatitude": 29.9,
+        "StationCode": "SOR",
+        "ObservationStartTime": 1737488154.13
+      },
+      {
+        "StationLongitude": 20.3633,
+        "StationLatitude": 69.3481,
+        "ObservationStartLongitude": 137.25,
+        "ObservationEndLongitude": 183.88,
+        "ObservationStartLatitude": 57.46,
+        "ObservationEndLatitude": 77.98,
+        "StationCode": "SKI",
+        "ObservationStartTime": 1737488153.52
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 89.6,
+      "EndHeight": 51.2,
+      "StartPositionNorth": 68.976,
+      "StartPositionEast": 21.315,
+      "EndPositionNorth": 69.252,
+      "EndPositionEast": 20.345
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.679,
+      "Eccentricity": 0.594,
+      "Inclination": 1.0,
+      "LongitudeOfAscendingNode": 121.8,
+      "ArgumentOfPerihelion": 80.2,
+      "MeanAnomaly": 338.4
+    }
+  },
+  {
+    "Id": "20250121_195435",
+    "Observations": [
+      {
+        "StationLongitude": 18.132711,
+        "StationLatitude": 69.141802,
+        "ObservationStartLongitude": 356.42,
+        "ObservationEndLongitude": 0.25,
+        "ObservationStartLatitude": 57.84,
+        "ObservationEndLatitude": 56.21,
+        "StationCode": "SOR",
+        "ObservationStartTime": 1737489273.66
+      },
+      {
+        "StationLongitude": 20.3633,
+        "StationLatitude": 69.3481,
+        "ObservationStartLongitude": 289.6,
+        "ObservationEndLongitude": 288.66,
+        "ObservationStartLatitude": 40.26,
+        "ObservationEndLatitude": 38.01,
+        "StationCode": "SKI",
+        "ObservationStartTime": 1737489275.16
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 88.8,
+      "EndHeight": 70.0,
+      "StartPositionNorth": 69.633,
+      "StartPositionEast": 18.044,
+      "EndPositionNorth": 69.587,
+      "EndPositionEast": 18.226
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.984,
+      "Eccentricity": 0.576,
+      "Inclination": 15.6,
+      "LongitudeOfAscendingNode": 301.7,
+      "ArgumentOfPerihelion": 182.3,
+      "MeanAnomaly": 359.5
+    }
+  },
+  {
+    "Id": "20250122_164410",
+    "Observations": [
+      {
+        "StationLongitude": 10.7517887,
+        "StationLatitude": 60.2119374,
+        "ObservationStartLongitude": 16.45,
+        "ObservationEndLongitude": 27.35,
+        "ObservationStartLatitude": 45.23,
+        "ObservationEndLatitude": 44.83,
+        "StationCode": "HAR",
+        "ObservationStartTime": 1737564251.12
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 32.76,
+        "ObservationEndLongitude": 57.24,
+        "ObservationStartLatitude": 58.59,
+        "ObservationEndLatitude": 55.79,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1737564250.16
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 98.2,
+      "EndHeight": 83.5,
+      "StartPositionNorth": 61.042,
+      "StartPositionEast": 11.157,
+      "EndPositionNorth": 60.863,
+      "EndPositionEast": 11.444
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.948,
+      "Eccentricity": 0.585,
+      "Inclination": 53.5,
+      "LongitudeOfAscendingNode": 302.6,
+      "ArgumentOfPerihelion": 154.0,
+      "MeanAnomaly": 5.7
+    }
+  },
+  {
+    "Id": "20250122_220245",
+    "Observations": [
+      {
+        "StationLongitude": 12.60255,
+        "StationLatitude": 61.05661,
+        "ObservationStartLongitude": 306.4,
+        "ObservationEndLongitude": 302.14,
+        "ObservationStartLatitude": 15.26,
+        "ObservationEndLatitude": 10.71,
+        "StationCode": "FIN",
+        "ObservationStartTime": 1737583364.24
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 96.5,
+      "EndHeight": 71.8,
+      "StartPositionNorth": 62.666,
+      "StartPositionEast": 7.591,
+      "EndPositionNorth": 62.526,
+      "EndPositionEast": 7.175
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.772,
+      "Eccentricity": 0.846,
+      "Inclination": 67.5,
+      "LongitudeOfAscendingNode": 302.8,
+      "ArgumentOfPerihelion": 238.0,
+      "MeanAnomaly": 356.9
+    }
+  },
+  {
+    "Id": "20250122_052446",
+    "Observations": [
+      {
+        "StationLongitude": 18.132711,
+        "StationLatitude": 69.141802,
+        "ObservationStartLongitude": 154.75,
+        "ObservationEndLongitude": 133.25,
+        "ObservationStartLatitude": 55.27,
+        "ObservationEndLatitude": 42.53,
+        "StationCode": "SOR",
+        "ObservationStartTime": 1737523488.16
+      },
+      {
+        "StationLongitude": 20.3633,
+        "StationLatitude": 69.3481,
+        "ObservationStartLongitude": 210.82,
+        "ObservationEndLongitude": 194.05,
+        "ObservationStartLatitude": 44.56,
+        "ObservationEndLatitude": 41.88,
+        "StationCode": "SKI",
+        "ObservationStartTime": 1737523488.36
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 109.4,
+      "EndHeight": 79.0,
+      "StartPositionNorth": 68.537,
+      "StartPositionEast": 18.909,
+      "EndPositionNorth": 68.596,
+      "EndPositionEast": 19.849
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.216,
+      "Eccentricity": 0.973,
+      "Inclination": 44.1,
+      "LongitudeOfAscendingNode": 302.1,
+      "ArgumentOfPerihelion": 305.7,
+      "MeanAnomaly": 358.4
+    }
+  },
+  {
+    "Id": "20250122_164411",
+    "Observations": [
+      {
+        "StationLongitude": 10.7517887,
+        "StationLatitude": 60.2119374,
+        "ObservationStartLongitude": 14.01,
+        "ObservationEndLongitude": 26.8,
+        "ObservationStartLatitude": 45.21,
+        "ObservationEndLatitude": 44.94,
+        "StationCode": "HAR",
+        "ObservationStartTime": 1737564251.92
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 32.76,
+        "ObservationEndLongitude": 57.24,
+        "ObservationStartLatitude": 58.59,
+        "ObservationEndLatitude": 55.79,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1737564250.16
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 98.5,
+      "EndHeight": 84.4,
+      "StartPositionNorth": 61.043,
+      "StartPositionEast": 11.158,
+      "EndPositionNorth": 60.87,
+      "EndPositionEast": 11.438
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.945,
+      "Eccentricity": 0.582,
+      "Inclination": 53.6,
+      "LongitudeOfAscendingNode": 302.6,
+      "ArgumentOfPerihelion": 153.2,
+      "MeanAnomaly": 5.9
+    }
+  },
+  {
+    "Id": "20250118_010123",
+    "Observations": [
+      {
+        "StationLongitude": 10.7517887,
+        "StationLatitude": 60.2119374,
+        "ObservationStartLongitude": 270.44,
+        "ObservationEndLongitude": 257.46,
+        "ObservationStartLatitude": 70.95,
+        "ObservationEndLatitude": 58.58,
+        "StationCode": "HAR",
+        "ObservationStartTime": 1737162083.96
+      },
+      {
+        "StationLongitude": 8.65566,
+        "StationLatitude": 59.85112,
+        "ObservationStartLongitude": 61.79,
+        "ObservationEndLongitude": 63.97,
+        "ObservationStartLatitude": 45.52,
+        "ObservationEndLatitude": 51.18,
+        "StationCode": "GAU",
+        "ObservationStartTime": 1737162083.44
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 207.88,
+        "ObservationEndLongitude": 218.23,
+        "ObservationStartLatitude": 62.74,
+        "ObservationEndLatitude": 50.74,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1737162083.92
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 105.3,
+      "EndHeight": 90.8,
+      "StartPositionNorth": 60.255,
+      "StartPositionEast": 10.255,
+      "EndPositionNorth": 60.091,
+      "EndPositionEast": 9.757
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.887,
+      "Eccentricity": 1.078,
+      "Inclination": 77.8,
+      "LongitudeOfAscendingNode": 297.8,
+      "ArgumentOfPerihelion": 144.2,
+      "MeanAnomaly": 0.6
+    }
+  },
+  {
+    "Id": "20250118_023128",
+    "Observations": [
+      {
+        "StationLongitude": 14.6447,
+        "StationLatitude": 60.2411,
+        "ObservationStartLongitude": 37.3,
+        "ObservationEndLongitude": 29.0,
+        "ObservationStartLatitude": 37.5,
+        "ObservationEndLatitude": 34.8,
+        "StationCode": "HBRG",
+        "ObservationStartTime": 1737167488.77
+      },
+      {
+        "StationLongitude": 12.60255,
+        "StationLatitude": 61.05661,
+        "ObservationStartLongitude": 87.64,
+        "ObservationEndLongitude": 80.03,
+        "ObservationStartLatitude": 27.5,
+        "ObservationEndLatitude": 27.69,
+        "StationCode": "FIN",
+        "ObservationStartTime": 1737167488.8
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 109.4,
+      "EndHeight": 97.5,
+      "StartPositionNorth": 61.08,
+      "StartPositionEast": 16.312,
+      "EndPositionNorth": 61.301,
+      "EndPositionEast": 15.872
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.59,
+      "Eccentricity": 0.261,
+      "Inclination": 159.7,
+      "LongitudeOfAscendingNode": 297.9,
+      "ArgumentOfPerihelion": 21.1,
+      "MeanAnomaly": 145.8
+    }
+  },
+  {
+    "Id": "20250118_013413",
+    "Observations": [
+      {
+        "StationLongitude": 8.65566,
+        "StationLatitude": 59.85112,
+        "ObservationStartLongitude": 303.85,
+        "ObservationEndLongitude": 294.55,
+        "ObservationStartLatitude": 49.39,
+        "ObservationEndLatitude": 41.37,
+        "StationCode": "GAU",
+        "ObservationStartTime": 1737164053.68
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 258.06,
+        "ObservationEndLongitude": 256.48,
+        "ObservationStartLatitude": 26.98,
+        "ObservationEndLatitude": 21.77,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1737164052.12
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 96.4,
+      "EndHeight": 77.8,
+      "StartPositionNorth": 60.244,
+      "StartPositionEast": 7.463,
+      "EndPositionNorth": 60.16,
+      "EndPositionEast": 7.268
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.969,
+      "Eccentricity": 0.613,
+      "Inclination": 53.1,
+      "LongitudeOfAscendingNode": 297.8,
+      "ArgumentOfPerihelion": 196.1,
+      "MeanAnomaly": 356.9
+    }
+  },
+  {
+    "Id": "20250118_232207",
+    "Observations": [
+      {
+        "StationLongitude": 10.428267,
+        "StationLatitude": 63.420586,
+        "ObservationStartLongitude": 326.04,
+        "ObservationEndLongitude": 326.72,
+        "ObservationStartLatitude": 24.72,
+        "ObservationEndLatitude": 17.87,
+        "StationCode": "TRO",
+        "ObservationStartTime": 1737242527.76
+      },
+      {
+        "StationLongitude": 8.65566,
+        "StationLatitude": 59.85112,
+        "ObservationStartLongitude": 358.77,
+        "ObservationEndLongitude": 358.49,
+        "ObservationStartLatitude": 5.38,
+        "ObservationEndLatitude": 3.86,
+        "StationCode": "GAU",
+        "ObservationStartTime": 1737242527.48
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 81.7,
+      "EndHeight": 61.4,
+      "StartPositionNorth": 64.674,
+      "StartPositionEast": 8.436,
+      "EndPositionNorth": 64.759,
+      "EndPositionEast": 8.348
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.546,
+      "Eccentricity": 0.76,
+      "Inclination": 15.4,
+      "LongitudeOfAscendingNode": 298.8,
+      "ArgumentOfPerihelion": 271.8,
+      "MeanAnomaly": 347.2
+    }
+  },
+  {
+    "Id": "20250118_003338",
+    "Observations": [
+      {
+        "StationLongitude": 12.60255,
+        "StationLatitude": 61.05661,
+        "ObservationStartLongitude": 196.94,
+        "ObservationEndLongitude": 199.65,
+        "ObservationStartLatitude": 47.48,
+        "ObservationEndLatitude": 38.97,
+        "StationCode": "FIN",
+        "ObservationStartTime": 1737160418.2
+      },
+      {
+        "StationLongitude": 10.7517887,
+        "StationLatitude": 60.2119374,
+        "ObservationStartLongitude": 77.36,
+        "ObservationEndLongitude": 82.65,
+        "ObservationStartLatitude": 47.13,
+        "ObservationEndLatitude": 44.75,
+        "StationCode": "HAR",
+        "ObservationStartTime": 1737160418.08
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 106.45,
+        "ObservationEndLongitude": 113.08,
+        "ObservationStartLatitude": 43.19,
+        "ObservationEndLatitude": 38.93,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1737160418.48
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 89.7,
+      "EndHeight": 72.7,
+      "StartPositionNorth": 60.365,
+      "StartPositionEast": 12.177,
+      "EndPositionNorth": 60.284,
+      "EndPositionEast": 12.036
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.948,
+      "Eccentricity": 0.627,
+      "Inclination": 48.1,
+      "LongitudeOfAscendingNode": 297.8,
+      "ArgumentOfPerihelion": 205.0,
+      "MeanAnomaly": 355.4
+    }
+  },
+  {
+    "Id": "20250118_053815",
+    "Observations": [
+      {
+        "StationLongitude": 14.6447,
+        "StationLatitude": 60.2411,
+        "ObservationStartLongitude": 15.2,
+        "ObservationEndLongitude": 1.3,
+        "ObservationStartLatitude": 31.7,
+        "ObservationEndLatitude": 19.9,
+        "StationCode": "HBRG",
+        "ObservationStartTime": 1737178695.08
+      },
+      {
+        "StationLongitude": 12.60255,
+        "StationLatitude": 61.05661,
+        "ObservationStartLongitude": 80.63,
+        "ObservationEndLongitude": 92.55,
+        "ObservationStartLatitude": 29.06,
+        "ObservationEndLatitude": 15.86,
+        "StationCode": "FIN",
+        "ObservationStartTime": 1737178694.52
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 73.46,
+        "ObservationEndLongitude": 76.95,
+        "ObservationStartLatitude": 14.68,
+        "ObservationEndLatitude": 7.88,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1737178695.24
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 89.3,
+      "EndHeight": 30.7,
+      "StartPositionNorth": 61.254,
+      "StartPositionEast": 15.45,
+      "EndPositionNorth": 60.977,
+      "EndPositionEast": 14.68
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.971,
+      "Eccentricity": 0.521,
+      "Inclination": 20.1,
+      "LongitudeOfAscendingNode": 298.0,
+      "ArgumentOfPerihelion": 164.0,
+      "MeanAnomaly": 4.3
+    }
+  },
+  {
+    "Id": "20250118_040354",
+    "Observations": [
+      {
+        "StationLongitude": 14.6447,
+        "StationLatitude": 60.2411,
+        "ObservationStartLongitude": 99.9,
+        "ObservationEndLongitude": 129.9,
+        "ObservationStartLatitude": 81.1,
+        "ObservationEndLatitude": 79.1,
+        "StationCode": "HBRG",
+        "ObservationStartTime": 1737173034.12
+      },
+      {
+        "StationLongitude": 12.60255,
+        "StationLatitude": 61.05661,
+        "ObservationStartLongitude": 123.21,
+        "ObservationEndLongitude": 129.0,
+        "ObservationStartLatitude": 28.56,
+        "ObservationEndLatitude": 21.02,
+        "StationCode": "FIN",
+        "ObservationStartTime": 1737173034.48
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 85.4,
+      "EndHeight": 63.3,
+      "StartPositionNorth": 60.294,
+      "StartPositionEast": 14.889,
+      "EndPositionNorth": 60.148,
+      "EndPositionEast": 14.807
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.98,
+      "Eccentricity": 0.572,
+      "Inclination": 21.3,
+      "LongitudeOfAscendingNode": 297.9,
+      "ArgumentOfPerihelion": 188.1,
+      "MeanAnomaly": 358.2
+    }
+  },
+  {
+    "Id": "20250108_045321",
+    "Observations": [
+      {
+        "StationLongitude": 7.96403523,
+        "StationLatitude": 58.0945324,
+        "ObservationStartLongitude": 64.96,
+        "ObservationEndLongitude": 59.07,
+        "ObservationStartLatitude": 38.15,
+        "ObservationEndLatitude": 39.63,
+        "StationCode": "KRI",
+        "ObservationStartTime": 1736312000.64
+      },
+      {
+        "StationLongitude": 10.098182,
+        "StationLatitude": 59.090854,
+        "ObservationStartLongitude": 193.51,
+        "ObservationEndLongitude": 212.68,
+        "ObservationStartLatitude": 56.75,
+        "ObservationEndLatitude": 50.56,
+        "StationCode": "LAR",
+        "ObservationStartTime": 1736312001.88
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 97.8,
+      "EndHeight": 86.3,
+      "StartPositionNorth": 58.541,
+      "StartPositionEast": 9.85,
+      "EndPositionNorth": 58.562,
+      "EndPositionEast": 9.451
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.54,
+      "Eccentricity": 0.825,
+      "Inclination": 54.5,
+      "LongitudeOfAscendingNode": 287.8,
+      "ArgumentOfPerihelion": 90.1,
+      "MeanAnomaly": 7.7
+    }
+  },
+  {
+    "Id": "20250102_040432",
+    "Observations": [
+      {
+        "StationLongitude": 14.6447,
+        "StationLatitude": 60.2411,
+        "ObservationStartLongitude": 240.7,
+        "ObservationEndLongitude": 246.5,
+        "ObservationStartLatitude": 22.8,
+        "ObservationEndLatitude": 18.7,
+        "StationCode": "HBRG",
+        "ObservationStartTime": 1735790672.92
+      },
+      {
+        "StationLongitude": 10.098182,
+        "StationLatitude": 59.090854,
+        "ObservationStartLongitude": 84.71,
+        "ObservationEndLongitude": 58.13,
+        "ObservationStartLatitude": 43.27,
+        "ObservationEndLatitude": 67.0,
+        "StationCode": "LAR",
+        "ObservationStartTime": 1735790671.86
+      },
+      {
+        "StationLongitude": 10.098182,
+        "StationLatitude": 59.090854,
+        "ObservationStartLongitude": 83.87,
+        "ObservationEndLongitude": 77.97,
+        "ObservationStartLatitude": 45.01,
+        "ObservationEndLatitude": 53.4,
+        "StationCode": "LAR",
+        "ObservationStartTime": 1735790672.0
+      },
+      {
+        "StationLongitude": 10.7517887,
+        "StationLatitude": 60.2119374,
+        "ObservationStartLongitude": 172.56,
+        "ObservationEndLongitude": 182.21,
+        "ObservationStartLatitude": 38.34,
+        "ObservationEndLatitude": 37.71,
+        "StationCode": "HAR",
+        "ObservationStartTime": 1735790674.0
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 108.3,
+      "EndHeight": 87.0,
+      "StartPositionNorth": 59.167,
+      "StartPositionEast": 12.049,
+      "EndPositionNorth": 59.267,
+      "EndPositionEast": 10.643
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.326,
+      "Eccentricity": 0.989,
+      "Inclination": 73.0,
+      "LongitudeOfAscendingNode": 281.7,
+      "ArgumentOfPerihelion": 69.9,
+      "MeanAnomaly": 0.2
+    }
+  },
+  {
+    "Id": "20250102_195759",
+    "Observations": [
+      {
+        "StationLongitude": 14.6447,
+        "StationLatitude": 60.2411,
+        "ObservationStartLongitude": 311.0,
+        "ObservationEndLongitude": 296.1,
+        "ObservationStartLatitude": 27.6,
+        "ObservationEndLatitude": 25.5,
+        "StationCode": "HBRG",
+        "ObservationStartTime": 1735847879.32
+      },
+      {
+        "StationLongitude": 10.098182,
+        "StationLatitude": 59.090854,
+        "ObservationStartLongitude": 26.29,
+        "ObservationEndLongitude": 33.87,
+        "ObservationStartLatitude": 17.95,
+        "ObservationEndLatitude": 16.5,
+        "StationCode": "LAR",
+        "ObservationStartTime": 1735847878.33
+      },
+      {
+        "StationLongitude": 10.7517887,
+        "StationLatitude": 60.2119374,
+        "ObservationStartLongitude": 35.11,
+        "ObservationEndLongitude": 45.32,
+        "ObservationStartLatitude": 31.16,
+        "ObservationEndLatitude": 32.38,
+        "StationCode": "HAR",
+        "ObservationStartTime": 1735847878.88
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 48.04,
+        "ObservationEndLongitude": 57.7,
+        "ObservationStartLatitude": 36.05,
+        "ObservationEndLatitude": 36.74,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1735847879.48
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 99.1,
+      "EndHeight": 66.1,
+      "StartPositionNorth": 61.379,
+      "StartPositionEast": 12.405,
+      "EndPositionNorth": 60.662,
+      "EndPositionEast": 12.265
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.982,
+      "Eccentricity": 0.616,
+      "Inclination": 72.6,
+      "LongitudeOfAscendingNode": 282.3,
+      "ArgumentOfPerihelion": 174.6,
+      "MeanAnomaly": 1.0
+    }
+  },
+  {
+    "Id": "20250102_013909",
+    "Observations": [
+      {
+        "StationLongitude": 12.60255,
+        "StationLatitude": 61.05661,
+        "ObservationStartLongitude": 184.26,
+        "ObservationEndLongitude": 194.7,
+        "ObservationStartLatitude": 22.69,
+        "ObservationEndLatitude": 20.97,
+        "StationCode": "FIN",
+        "ObservationStartTime": 1735781949.64
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 151.45,
+        "ObservationEndLongitude": 162.93,
+        "ObservationStartLatitude": 25.48,
+        "ObservationEndLatitude": 26.34,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1735781949.12
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 105.7,
+      "EndHeight": 92.9,
+      "StartPositionNorth": 58.932,
+      "StartPositionEast": 12.313,
+      "EndPositionNorth": 59.059,
+      "EndPositionEast": 11.486
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.831,
+      "Eccentricity": 0.675,
+      "Inclination": 154.3,
+      "LongitudeOfAscendingNode": 281.6,
+      "ArgumentOfPerihelion": 128.0,
+      "MeanAnomaly": 8.3
+    }
+  },
+  {
+    "Id": "20250102_022431",
+    "Observations": [
+      {
+        "StationLongitude": 10.098182,
+        "StationLatitude": 59.090854,
+        "ObservationStartLongitude": 347.51,
+        "ObservationEndLongitude": 357.61,
+        "ObservationStartLatitude": 41.9,
+        "ObservationEndLatitude": 31.16,
+        "StationCode": "LAR",
+        "ObservationStartTime": 1735784671.08
+      },
+      {
+        "StationLongitude": 10.7517887,
+        "StationLatitude": 60.2119374,
+        "ObservationStartLongitude": 250.17,
+        "ObservationEndLongitude": 266.52,
+        "ObservationStartLatitude": 56.65,
+        "ObservationEndLatitude": 61.24,
+        "StationCode": "HAR",
+        "ObservationStartTime": 1735784672.0
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 91.2,
+      "EndHeight": 61.2,
+      "StartPositionNorth": 59.961,
+      "StartPositionEast": 9.713,
+      "EndPositionNorth": 60.193,
+      "EndPositionEast": 10.159
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.476,
+      "Eccentricity": 0.64,
+      "Inclination": 6.8,
+      "LongitudeOfAscendingNode": 101.6,
+      "ArgumentOfPerihelion": 108.8,
+      "MeanAnomaly": 327.1
+    }
+  },
+  {
+    "Id": "20250102_024805",
+    "Observations": [
+      {
+        "StationLongitude": 12.60255,
+        "StationLatitude": 61.05661,
+        "ObservationStartLongitude": 251.56,
+        "ObservationEndLongitude": 237.64,
+        "ObservationStartLatitude": 73.55,
+        "ObservationEndLatitude": 68.73,
+        "StationCode": "FIN",
+        "ObservationStartTime": 1735786085.76
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 63.08,
+        "ObservationEndLongitude": 67.2,
+        "ObservationStartLatitude": 43.85,
+        "ObservationEndLatitude": 39.76,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1735786085.2
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 94.0,
+      "EndHeight": 78.6,
+      "StartPositionNorth": 60.978,
+      "StartPositionEast": 12.125,
+      "EndPositionNorth": 60.911,
+      "EndPositionEast": 12.134
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.905,
+      "Eccentricity": 0.923,
+      "Inclination": 36.3,
+      "LongitudeOfAscendingNode": 281.6,
+      "ArgumentOfPerihelion": 213.6,
+      "MeanAnomaly": 359.5
+    }
+  },
+  {
+    "Id": "20250102_040433",
+    "Observations": [
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 161.34,
+        "ObservationEndLongitude": 176.03,
+        "ObservationStartLatitude": 29.6,
+        "ObservationEndLatitude": 28.92,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1735790672.96
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 102.7,
+      "EndHeight": 84.7,
+      "StartPositionNorth": 59.167,
+      "StartPositionEast": 11.816,
+      "EndPositionNorth": 59.255,
+      "EndPositionEast": 10.594
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.294,
+      "Eccentricity": 0.887,
+      "Inclination": 64.9,
+      "LongitudeOfAscendingNode": 281.7,
+      "ArgumentOfPerihelion": 60.6,
+      "MeanAnomaly": 9.2
+    }
+  },
+  {
+    "Id": "20250102_061850",
+    "Observations": [
+      {
+        "StationLongitude": 14.6447,
+        "StationLatitude": 60.2411,
+        "ObservationStartLongitude": 122.1,
+        "ObservationEndLongitude": 112.8,
+        "ObservationStartLatitude": 3.4,
+        "ObservationEndLatitude": 2.6,
+        "StationCode": "HBRG",
+        "ObservationStartTime": 1735798730.11
+      },
+      {
+        "StationLongitude": 12.60255,
+        "StationLatitude": 61.05661,
+        "ObservationStartLongitude": 5.9,
+        "ObservationEndLongitude": 16.59,
+        "ObservationStartLatitude": 44.75,
+        "ObservationEndLatitude": 47.02,
+        "StationCode": "FIN",
+        "ObservationStartTime": 1735798738.8
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": -7.3,
+      "EndHeight": -15.8,
+      "StartPositionNorth": 60.978,
+      "StartPositionEast": 12.61,
+      "EndPositionNorth": 60.722,
+      "EndPositionEast": 12.358
+    },
+    "OrbitalData": null
+  },
+  {
+    "Id": "20250102_000123",
+    "Observations": [
+      {
+        "StationLongitude": 10.7517887,
+        "StationLatitude": 60.2119374,
+        "ObservationStartLongitude": 127.44,
+        "ObservationEndLongitude": 134.68,
+        "ObservationStartLatitude": 60.83,
+        "ObservationEndLatitude": 52.1,
+        "StationCode": "HAR",
+        "ObservationStartTime": 1735776084.52
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 146.5,
+        "ObservationEndLongitude": 148.09,
+        "ObservationStartLatitude": 43.54,
+        "ObservationEndLatitude": 37.88,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1735776086.04
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 88.9,
+      "EndHeight": 78.3,
+      "StartPositionNorth": 59.945,
+      "StartPositionEast": 11.441,
+      "EndPositionNorth": 59.833,
+      "EndPositionEast": 11.508
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.983,
+      "Eccentricity": 0.494,
+      "Inclination": 16.5,
+      "LongitudeOfAscendingNode": 281.5,
+      "ArgumentOfPerihelion": 177.9,
+      "MeanAnomaly": 0.6
+    }
+  },
+  {
+    "Id": "20250119_061424",
+    "Observations": [
+      {
+        "StationLongitude": 10.7517887,
+        "StationLatitude": 60.2119374,
+        "ObservationStartLongitude": 60.45,
+        "ObservationEndLongitude": 48.61,
+        "ObservationStartLatitude": 40.67,
+        "ObservationEndLatitude": 42.58,
+        "StationCode": "HAR",
+        "ObservationStartTime": 1737267264.6
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 88.81,
+        "ObservationEndLongitude": 84.47,
+        "ObservationStartLatitude": 38.56,
+        "ObservationEndLatitude": 41.41,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1737267264.36
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 99.6,
+      "EndHeight": 93.4,
+      "StartPositionNorth": 60.604,
+      "StartPositionEast": 12.78,
+      "EndPositionNorth": 60.792,
+      "EndPositionEast": 12.114
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.369,
+      "Eccentricity": 0.804,
+      "Inclination": 14.4,
+      "LongitudeOfAscendingNode": 299.1,
+      "ArgumentOfPerihelion": 66.3,
+      "MeanAnomaly": 16.5
+    }
+  },
+  {
+    "Id": "20250119_051225",
+    "Observations": [
+      {
+        "StationLongitude": 10.7517887,
+        "StationLatitude": 60.2119374,
+        "ObservationStartLongitude": 100.92,
+        "ObservationEndLongitude": 101.98,
+        "ObservationStartLatitude": 31.69,
+        "ObservationEndLatitude": 25.1,
+        "StationCode": "HAR",
+        "ObservationStartTime": 1737263546.0
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 115.32,
+        "ObservationEndLongitude": 116.76,
+        "ObservationStartLatitude": 28.09,
+        "ObservationEndLatitude": 21.23,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1737263546.36
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 114.93,
+        "ObservationEndLongitude": 116.2,
+        "ObservationStartLatitude": 28.81,
+        "ObservationEndLatitude": 22.17,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1737263546.96
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 93.4,
+      "EndHeight": 64.4,
+      "StartPositionNorth": 59.956,
+      "StartPositionEast": 13.209,
+      "EndPositionNorth": 59.94,
+      "EndPositionEast": 13.099
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.971,
+      "Eccentricity": 0.608,
+      "Inclination": 53.9,
+      "LongitudeOfAscendingNode": 299.0,
+      "ArgumentOfPerihelion": 194.9,
+      "MeanAnomaly": 357.1
+    }
+  },
+  {
+    "Id": "20250119_034614",
+    "Observations": [
+      {
+        "StationLongitude": 10.7517887,
+        "StationLatitude": 60.2119374,
+        "ObservationStartLongitude": 301.53,
+        "ObservationEndLongitude": 306.49,
+        "ObservationStartLatitude": 25.01,
+        "ObservationEndLatitude": 17.03,
+        "StationCode": "HAR",
+        "ObservationStartTime": 1737258374.72
+      },
+      {
+        "StationLongitude": 10.56916,
+        "StationLatitude": 60.6,
+        "ObservationStartLongitude": 289.99,
+        "ObservationEndLongitude": 296.27,
+        "ObservationStartLatitude": 29.21,
+        "ObservationEndLatitude": 20.3,
+        "StationCode": "HGR",
+        "ObservationStartTime": 1737258374.76
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 95.5,
+      "EndHeight": 64.1,
+      "StartPositionNorth": 61.073,
+      "StartPositionEast": 7.717,
+      "EndPositionNorth": 61.227,
+      "EndPositionEast": 7.818
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.213,
+      "Eccentricity": 0.849,
+      "Inclination": 72.5,
+      "LongitudeOfAscendingNode": 299.0,
+      "ArgumentOfPerihelion": 314.9,
+      "MeanAnomaly": 336.5
+    }
+  },
+  {
+    "Id": "20250119_181046",
+    "Observations": [
+      {
+        "StationLongitude": 12.60255,
+        "StationLatitude": 61.05661,
+        "ObservationStartLongitude": 307.29,
+        "ObservationEndLongitude": 302.87,
+        "ObservationStartLatitude": 28.89,
+        "ObservationEndLatitude": 22.09,
+        "StationCode": "FIN",
+        "ObservationStartTime": 1737310245.52
+      },
+      {
+        "StationLongitude": 10.7517887,
+        "StationLatitude": 60.2119374,
+        "ObservationStartLongitude": 353.76,
+        "ObservationEndLongitude": 348.99,
+        "ObservationStartLatitude": 22.97,
+        "ObservationEndLatitude": 20.5,
+        "StationCode": "HAR",
+        "ObservationStartTime": 1737310246.36
+      }
+    ],
+    "AtmosphericData": {
+      "StartHeight": 82.0,
+      "EndHeight": 69.9,
+      "StartPositionNorth": 61.82,
+      "StartPositionEast": 10.436,
+      "EndPositionNorth": 61.833,
+      "EndPositionEast": 9.979
+    },
+    "OrbitalData": {
+      "PerihelionDistance": 0.64,
+      "Eccentricity": 0.663,
+      "Inclination": 2.1,
+      "LongitudeOfAscendingNode": 119.6,
+      "ArgumentOfPerihelion": 82.8,
+      "MeanAnomaly": 342.7
+    }
+  }
+]
