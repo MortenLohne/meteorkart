@@ -55,7 +55,7 @@
                         // Add a marker at the start point of the meteor
                         L.marker(startLatLng)
                             .addTo(map)
-                            .bindPopup(`Meteor ID: ${event.Id}<br>Start Height: ${atm.StartHeight} km`);
+                            .bindPopup(`ID: ${event.Id}<br>Slutthøyde: ${atm.EndHeight} km<br>Starthøyde: ${atm.StartHeight} km`);
 
                         // Draw trajectory line
                         L.polyline([startLatLng, endLatLng], {
@@ -80,7 +80,7 @@
                                 fillColor: '#a00',
                                 fillOpacity: 0.7
                             }).addTo(map)
-                                .bindPopup(`Station: ${obs.StationCode}`);
+                                .bindPopup(`Stasjon: ${obs.StationCode}`);
 
                             // Optional: add a small label next to each station
                             L.marker(stationLatLng, {
