@@ -44,18 +44,21 @@
         fetch('meteors.json')
             .then(response => response.json())
             .then(data => {
-                data.forEach(event => {
-                    const atm = event.AtmosphericData;
-                    if (atm && atm.StartPositionNorth && atm.StartPositionEast &&
-                        atm.EndPositionNorth && atm.EndPositionEast) {
+                data.filter(event => {
+                    const timestamp = new Date(event.observations[0].observationStartTime * 1000);
+                    return timestamp >= new Date('2025-01-01T00:00:00Z');
+                }).forEach(event => {
+                    const atm = event.atmosphericData;
+                    if (atm && atm.startPositionNorth && atm.startPositionEast &&
+                        atm.endPositionNorth && atm.endPositionEast) {
 
-                        const startLatLng = [atm.StartPositionNorth, atm.StartPositionEast];
-                        const endLatLng = [atm.EndPositionNorth, atm.EndPositionEast];
+                        const startLatLng = [atm.startPositionNorth, atm.startPositionEast];
+                        const endLatLng = [atm.endPositionNorth, atm.endPositionEast];
 
                         // Add a marker at the start point of the meteor
                         L.marker(startLatLng)
                             .addTo(map)
-                            .bindPopup(`<a href="http://norskmeteornettverk.no/meteor/${event.Id.replace("_", "/")}" target="_blank">ID: ${event.Id}</a><br>Slutthøyde: ${atm.EndHeight} km<br>Starthøyde: ${atm.StartHeight} km`);
+                            .bindPopup(`<a href="http://norskmeteornettverk.no/meteor/${event.id.replace("_", "/")}" target="_blank">ID: ${event.id}</a><br>Slutthøyde: ${atm.EndHeight} km<br>Starthøyde: ${atm.StartHeight} km`);
 
                         // Draw trajectory line
                         L.polyline([startLatLng, endLatLng], {
@@ -66,12 +69,12 @@
                     }
 
                     // Add station markers, avoiding duplicates
-                    event.Observations.forEach(obs => {
-                        const key = `${obs.StationCode}_${obs.StationLatitude}_${obs.StationLongitude}`;
+                    event.observations.forEach(obs => {
+                        const key = `${obs.stationCode}_${obs.stationLatitude}_${obs.stationLongitude}`;
                         if (!addedStations.has(key)) {
                             addedStations.add(key);
 
-                            const stationLatLng = [obs.StationLatitude, obs.StationLongitude];
+                            const stationLatLng = [obs.stationLatitude, obs.stationLongitude];
 
                             // Circle marker with label
                             L.circleMarker(stationLatLng, {
@@ -80,13 +83,13 @@
                                 fillColor: '#a00',
                                 fillOpacity: 0.7
                             }).addTo(map)
-                                .bindPopup(`Stasjon: ${obs.StationCode}`);
+                                .bindPopup(`Stasjon: ${obs.stationCode}`);
 
                             // Optional: add a small label next to each station
                             L.marker(stationLatLng, {
                                 icon: L.divIcon({
                                     className: 'station-label',
-                                    html: obs.StationCode,
+                                    html: obs.stationCode,
                                     iconSize: [30, 12],
                                     iconAnchor: [15, -5]
                                 })
@@ -106,8 +109,7 @@
     <div
         style="position: absolute; bottom: 10px; left: 10px; background: rgba(255,255,255,0.9); padding: 6px 12px; border-radius: 5px; font-size: 16px; box-shadow: 0 0 5px rgba(0,0,0,0.2); z-index: 1000;">
         Dataen er hentet fra <a href="http://norskmeteornettverk.no"> Norsk Meteornettverk</a>, og viser meteorer
-        observert i løpet av
-        januar 2025.
+        observert i løpet av 2025.
     </div>
 </body>
 

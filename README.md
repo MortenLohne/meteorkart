@@ -1,6 +1,6 @@
 # Meteorkart
 
-En enkel nettside, som viser meteor-observasjoner i Norge i januar 2025, ved hjelp av data fra [Norsk Meteornettverk](http://norskmeteornettverk.no). Den er hostet på Vercel på https://meteorkart.vercel.app/.
+En enkel nettside, som viser meteor-observasjoner i Norge i 2025, ved hjelp av data fra [Norsk Meteornettverk](http://norskmeteornettverk.no). Den er hostet på Vercel på https://meteorkart.vercel.app/.
 
 ## Kjøre lokalt
 
