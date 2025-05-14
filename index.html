@@ -55,7 +55,7 @@
                         // Add a marker at the start point of the meteor
                         L.marker(startLatLng)
                             .addTo(map)
-                            .bindPopup(`ID: ${event.Id}<br>Slutthøyde: ${atm.EndHeight} km<br>Starthøyde: ${atm.StartHeight} km`);
+                            .bindPopup(`<a href="http://norskmeteornettverk.no/meteor/${event.Id.replace("_", "/")}" target="_blank">ID: ${event.Id}</a><br>Slutthøyde: ${atm.EndHeight} km<br>Starthøyde: ${atm.StartHeight} km`);
 
                         // Draw trajectory line
                         L.polyline([startLatLng, endLatLng], {
