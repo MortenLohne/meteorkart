@@ -27,6 +27,16 @@
 <body>
 
     <div id="map"></div>
+    <div
+        style="position: absolute; top: 10px; left: 10px; z-index: 1000; background: white; padding: 10px; border-radius: 5px; box-shadow: 0 0 5px rgba(0,0,0,0.3); font-size: 14px;">
+        <label>
+            Show meteors between:
+            <span id="time-start-label">--</span> and <span id="time-end-label">--</span>
+        </label>
+        <br>
+        <input type="range" id="time-start" min="0" max="100" step="1" value="0" style="width: 300px;">
+        <input type="range" id="time-end" min="0" max="100" step="1" value="100" style="width: 300px;">
+    </div>
 
     <!-- Leaflet JS -->
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
@@ -41,64 +51,105 @@
         // Set to keep track of already added stations
         const addedStations = new Set();
 
+        let allMeteorData = [];
+        let markersAndLines = [];
+
         fetch('meteors.json')
             .then(response => response.json())
             .then(data => {
-                data.filter(event => {
-                    const timestamp = new Date(event.observations[0].observationStartTime * 1000);
-                    return timestamp >= new Date('2025-01-01T00:00:00Z');
-                }).forEach(event => {
-                    const atm = event.atmosphericData;
-                    if (atm && atm.startPositionNorth && atm.startPositionEast &&
-                        atm.endPositionNorth && atm.endPositionEast) {
+                allMeteorData = data;
 
-                        const startLatLng = [atm.startPositionNorth, atm.startPositionEast];
-                        const endLatLng = [atm.endPositionNorth, atm.endPositionEast];
+                // Find min/max observation times
+                const allTimes = data.flatMap(event =>
+                    event.observations.map(obs => obs.observationStartTime)
+                        .filter(time => time > 0)
+                );
+                const minTime = Math.min(...allTimes);
+                const maxTime = Math.max(...allTimes);
 
-                        // Add a marker at the start point of the meteor
-                        L.marker(startLatLng)
-                            .addTo(map)
-                            .bindPopup(`<a href="http://norskmeteornettverk.no/meteor/${event.id.replace("_", "/")}" target="_blank">ID: ${event.id}</a><br>Slutthøyde: ${atm.endHeight} km<br>Starthøyde: ${atm.startHeight} km`);
+                // Store for slider scaling
+                const sliderStart = document.getElementById('time-start');
+                const sliderEnd = document.getElementById('time-end');
+                sliderStart.min = sliderEnd.min = minTime;
+                sliderStart.max = sliderEnd.max = maxTime;
+                sliderStart.value = minTime;
+                sliderEnd.value = maxTime;
 
-                        // Draw trajectory line
-                        L.polyline([startLatLng, endLatLng], {
-                            color: 'blue',
-                            weight: 2,
-                            opacity: 0.8
-                        }).addTo(map);
-                    }
+                // Update label display
+                const labelStart = document.getElementById('time-start-label');
+                const labelEnd = document.getElementById('time-end-label');
 
-                    // Add station markers, avoiding duplicates
-                    event.observations.forEach(obs => {
-                        const key = `${obs.stationCode}_${obs.stationLatitude}_${obs.stationLongitude}`;
-                        if (!addedStations.has(key)) {
-                            addedStations.add(key);
+                function updateLabels() {
+                    const startDate = new Date(parseFloat(sliderStart.value) * 1000);
+                    const endDate = new Date(parseFloat(sliderEnd.value) * 1000);
+                    labelStart.textContent = startDate.toISOString().split('T')[0] + ' ' + startDate.toISOString().split('T')[1].slice(0, 5);
+                    labelEnd.textContent = endDate.toISOString().split('T')[0] + ' ' + endDate.toISOString().split('T')[1].slice(0, 5);
+                }
 
-                            const stationLatLng = [obs.stationLatitude, obs.stationLongitude];
+                function filterAndRender() {
+                    // Clear previous markers/lines
+                    markersAndLines.forEach(layer => map.removeLayer(layer));
+                    markersAndLines = [];
 
-                            // Circle marker with label
-                            L.circleMarker(stationLatLng, {
-                                radius: 8,
-                                color: 'red',
-                                fillColor: '#a00',
-                                fillOpacity: 0.7
+                    const start = parseFloat(sliderStart.value);
+                    const end = parseFloat(sliderEnd.value);
+
+                    allMeteorData.forEach(event => {
+                        const observedInRange = event.observations.some(obs =>
+                            obs.observationStartTime >= start && obs.observationStartTime <= end
+                        );
+
+                        if (!observedInRange) return;
+
+                        const atm = event.atmosphericData;
+                        if (atm && atm.startPositionNorth && atm.startPositionEast &&
+                            atm.endPositionNorth && atm.endPositionEast) {
+
+                            const startLatLng = [atm.startPositionNorth, atm.startPositionEast];
+                            const endLatLng = [atm.endPositionNorth, atm.endPositionEast];
+
+                            // Meteor marker
+                            const marker = L.circleMarker(startLatLng, {
+                                radius: 4,
+                                color: 'darkred',
+                                fillColor: 'red',
+                                fillOpacity: 0.8
                             }).addTo(map)
-                                .bindPopup(`Stasjon: ${obs.stationCode}`);
+                                .bindPopup(`Meteor ID: ${event.id}<br>Start Height: ${atm.startHeight} km`);
+                            markersAndLines.push(marker);
 
-                            // Optional: add a small label next to each station
-                            L.marker(stationLatLng, {
-                                icon: L.divIcon({
-                                    className: 'station-label',
-                                    html: obs.stationCode,
-                                    iconSize: [30, 12],
-                                    iconAnchor: [15, -5]
-                                })
+                            // Trajectory
+                            const line = L.polyline([startLatLng, endLatLng], {
+                                color: 'red',
+                                weight: 2,
+                                opacity: 0.8
                             }).addTo(map);
+                            markersAndLines.push(line);
                         }
                     });
+                }
+
+                // Initial render
+                updateLabels();
+                filterAndRender();
+
+                // Handle slider input
+                sliderStart.addEventListener('input', () => {
+                    if (parseFloat(sliderStart.value) > parseFloat(sliderEnd.value)) {
+                        sliderStart.value = sliderEnd.value;
+                    }
+                    updateLabels();
+                    filterAndRender();
                 });
-            })
-            .catch(error => console.error('Error loading meteor data:', error));
+
+                sliderEnd.addEventListener('input', () => {
+                    if (parseFloat(sliderEnd.value) < parseFloat(sliderStart.value)) {
+                        sliderEnd.value = sliderStart.value;
+                    }
+                    updateLabels();
+                    filterAndRender();
+                });
+            });
     </script>
 
     <a href="https://github.com/MortenLohne/meteorkart" target="_blank"
