@@ -54,9 +54,6 @@
             attribution: '&copy; OpenStreetMap contributors'
         }).addTo(map);
 
-        // Set to keep track of already added stations
-        const addedStations = new Set();
-
         let allMeteorData = [];
         let markersAndLines = [];
 
@@ -116,6 +113,9 @@
                     markersAndLines.forEach(layer => map.removeLayer(layer));
                     markersAndLines = [];
 
+                    // Set to keep track of already added stations
+                    const addedStations = new Set();
+
                     allMeteorData.forEach(event => {
                         const observedInRange = event.observations.some(obs =>
                             obs.observationStartTime >= startTime && obs.observationStartTime <= endTime
@@ -157,16 +157,17 @@
                                 const stationLatLng = [obs.stationLatitude, obs.stationLongitude];
 
                                 // Circle marker with label
-                                L.circleMarker(stationLatLng, {
+                                const stationMarker = L.circleMarker(stationLatLng, {
                                     radius: 8,
                                     color: 'red',
                                     fillColor: '#a00',
                                     fillOpacity: 0.7
                                 }).addTo(map)
                                     .bindPopup(`Stasjon: ${obs.stationCode}`);
+                                markersAndLines.push(stationMarker);
 
                                 // Optional: add a small label next to each station
-                                L.marker(stationLatLng, {
+                                const stationLabel = L.marker(stationLatLng, {
                                     icon: L.divIcon({
                                         className: 'station-label',
                                         html: obs.stationCode,
@@ -174,6 +175,7 @@
                                         iconAnchor: [15, -5]
                                     })
                                 }).addTo(map);
+                                markersAndLines.push(stationLabel);
                             }
                         });
                     });
