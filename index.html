@@ -24,18 +24,24 @@
     </style>
 </head>
 
+<!-- noUiSlider CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nouislider@15.7.0/dist/nouislider.min.css">
+
+<!-- noUiSlider JS -->
+<script src="https://cdn.jsdelivr.net/npm/nouislider@15.7.0/dist/nouislider.min.js"></script>
+
+
 <body>
 
     <div id="map"></div>
+
     <div
-        style="position: absolute; top: 10px; left: 10px; z-index: 1000; background: white; padding: 10px; border-radius: 5px; box-shadow: 0 0 5px rgba(0,0,0,0.3); font-size: 14px;">
-        <label>
-            Show meteors between:
-            <span id="time-start-label">--</span> and <span id="time-end-label">--</span>
-        </label>
-        <br>
-        <input type="range" id="time-start" min="0" max="100" step="1" value="0" style="width: 300px;">
-        <input type="range" id="time-end" min="0" max="100" step="1" value="100" style="width: 300px;">
+        style="position: absolute; top: 10px; left: 10px; z-index: 1000; background: white; padding: 10px; border-radius: 5px; box-shadow: 0 0 5px rgba(0,0,0,0.3); font-size: 14px; width: 600px;">
+        <label>Show meteors between:</label><br>
+        <div id="time-slider" style="margin-top: 10px;"></div>
+        <div style="margin-top: 6px;">
+            <span id="time-start-label">--</span> – <span id="time-end-label">--</span>
+        </div>
     </div>
 
     <!-- Leaflet JS -->
@@ -67,36 +73,52 @@
                 const minTime = Math.min(...allTimes);
                 const maxTime = Math.max(...allTimes);
 
-                // Store for slider scaling
-                const sliderStart = document.getElementById('time-start');
-                const sliderEnd = document.getElementById('time-end');
-                sliderStart.min = sliderEnd.min = minTime;
-                sliderStart.max = sliderEnd.max = maxTime;
-                sliderStart.value = minTime;
-                sliderEnd.value = maxTime;
-
-                // Update label display
+                const slider = document.getElementById('time-slider');
                 const labelStart = document.getElementById('time-start-label');
                 const labelEnd = document.getElementById('time-end-label');
 
-                function updateLabels() {
-                    const startDate = new Date(parseFloat(sliderStart.value) * 1000);
-                    const endDate = new Date(parseFloat(sliderEnd.value) * 1000);
-                    labelStart.textContent = startDate.toISOString().split('T')[0] + ' ' + startDate.toISOString().split('T')[1].slice(0, 5);
-                    labelEnd.textContent = endDate.toISOString().split('T')[0] + ' ' + endDate.toISOString().split('T')[1].slice(0, 5);
+                // Format Unix timestamp to readable
+                function formatTimestamp(ts) {
+                    if (typeof ts !== 'number' || isNaN(ts)) return '--';
+                    const date = new Date(ts * 1000);
+                    if (isNaN(date.getTime())) return '--';
+                    return date.toISOString().split('T')[0] + ' ' + date.toISOString().split('T')[1].slice(0, 5);
                 }
 
-                function filterAndRender() {
-                    // Clear previous markers/lines
+                const defaultStartTime = new Date("2025-01-01T00:00:00Z").valueOf() / 1000;
+
+                noUiSlider.create(slider, {
+                    start: [defaultStartTime, maxTime],
+                    connect: true,
+                    step: 7 * 24 * 60 * 60, // step by 1 minute
+                    range: {
+                        min: minTime,
+                        max: maxTime
+                    },
+                    tooltips: [true, true],
+                    format: {
+                        to: ts => formatTimestamp(ts),
+                        from: val => new Date(Number(val))
+                    }
+                });
+
+                console.log("Created slider");
+
+                // Listen for slider changes and re-render
+                slider.noUiSlider.on('update', function (values, handle, unformatted) {
+                    const [start, end] = unformatted;
+                    labelStart.textContent = formatTimestamp(start);
+                    labelEnd.textContent = formatTimestamp(end);
+                    filterAndRender(start, end);
+                });
+
+                function filterAndRender(startTime, endTime) {
                     markersAndLines.forEach(layer => map.removeLayer(layer));
                     markersAndLines = [];
 
-                    const start = parseFloat(sliderStart.value);
-                    const end = parseFloat(sliderEnd.value);
-
                     allMeteorData.forEach(event => {
                         const observedInRange = event.observations.some(obs =>
-                            obs.observationStartTime >= start && obs.observationStartTime <= end
+                            obs.observationStartTime >= startTime && obs.observationStartTime <= endTime
                         );
 
                         if (!observedInRange) return;
@@ -111,51 +133,57 @@
                             // Meteor marker
                             const marker = L.circleMarker(startLatLng, {
                                 radius: 4,
-                                color: 'darkred',
-                                fillColor: 'red',
+                                color: 'darkblue',
+                                fillColor: 'blue',
                                 fillOpacity: 0.8
                             }).addTo(map)
-                                .bindPopup(`Meteor ID: ${event.id}<br>Start Height: ${atm.startHeight} km`);
+                                .bindPopup(`<a href="http://norskmeteornettverk.no/meteor/${event.id.replace("_", "/")}" target="_blank">ID: ${event.id}</a><br>Slutthøyde: ${atm.endHeight} km<br>Starthøyde: ${atm.startHeight} km`);
                             markersAndLines.push(marker);
 
                             // Trajectory
                             const line = L.polyline([startLatLng, endLatLng], {
-                                color: 'red',
+                                color: 'blue',
                                 weight: 2,
                                 opacity: 0.8
                             }).addTo(map);
                             markersAndLines.push(line);
                         }
+
+                        event.observations.forEach(obs => {
+                            const key = `${obs.stationCode}_${obs.stationLatitude}_${obs.stationLongitude}`;
+                            if (!addedStations.has(key)) {
+                                addedStations.add(key);
+
+                                const stationLatLng = [obs.stationLatitude, obs.stationLongitude];
+
+                                // Circle marker with label
+                                L.circleMarker(stationLatLng, {
+                                    radius: 8,
+                                    color: 'red',
+                                    fillColor: '#a00',
+                                    fillOpacity: 0.7
+                                }).addTo(map)
+                                    .bindPopup(`Stasjon: ${obs.stationCode}`);
+
+                                // Optional: add a small label next to each station
+                                L.marker(stationLatLng, {
+                                    icon: L.divIcon({
+                                        className: 'station-label',
+                                        html: obs.stationCode,
+                                        iconSize: [30, 12],
+                                        iconAnchor: [15, -5]
+                                    })
+                                }).addTo(map);
+                            }
+                        });
                     });
+
                 }
 
                 // Initial render
-                updateLabels();
-                filterAndRender();
-
-                // Handle slider input
-                sliderStart.addEventListener('input', () => {
-                    if (parseFloat(sliderStart.value) > parseFloat(sliderEnd.value)) {
-                        sliderStart.value = sliderEnd.value;
-                    }
-                    updateLabels();
-                    filterAndRender();
-                });
-
-                sliderEnd.addEventListener('input', () => {
-                    if (parseFloat(sliderEnd.value) < parseFloat(sliderStart.value)) {
-                        sliderEnd.value = sliderStart.value;
-                    }
-                    updateLabels();
-                    filterAndRender();
-                });
+                filterAndRender(defaultStartTime, maxTime);
             });
     </script>
-
-    <a href="https://github.com/MortenLohne/meteorkart" target="_blank"
-        style="position: absolute; top: 0; right: 0; border: 0; z-index: 1000;">
-        <img src="forkme_right_darkblue_121621.png" alt="Fork me on GitHub" style="width: 149px; height: auto;">
-    </a>
 
     <div
         style="position: absolute; bottom: 10px; left: 10px; background: rgba(255,255,255,0.9); padding: 6px 12px; border-radius: 5px; font-size: 16px; box-shadow: 0 0 5px rgba(0,0,0,0.2); z-index: 1000;">
