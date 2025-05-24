@@ -1,0 +1,84 @@
+html,
+body {
+  margin: 0;
+}
+
+#map {
+  height: 100lvh;
+}
+
+.station-label {
+  background-color: white;
+  border: 1px solid #333;
+  padding: 2px 4px;
+  font-size: 12px;
+  border-radius: 3px;
+}
+
+/* Base absolute positioning utility */
+.abs {
+  position: absolute;
+}
+/* Z-index utility */
+.z-top {
+  z-index: 1000;
+}
+/* Card utility for floating panels */
+.card {
+  background: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  font-size: 14px;
+}
+/* Card width variants */
+.w-300 {
+  width: 300px;
+}
+.w-450 {
+  width: 450px;
+}
+/* Small margin top utility */
+.mt-10 {
+  margin-top: 10px;
+}
+/* Label spacing utility */
+.label-block {
+  display: block;
+  margin-bottom: 4px;
+}
+/* Position modifiers */
+.t-15 {
+  top: 15px;
+}
+.t-85 {
+  top: 85px;
+}
+.t-160 {
+  top: 160px;
+}
+.t-235 {
+  top: 235px;
+}
+.l-10 {
+  left: 10px;
+}
+.l-60 {
+  left: 60px;
+}
+.b-10 {
+  bottom: 10px;
+}
+/* Info box/credit styling */
+.info-box {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 6px 12px;
+  border-radius: 5px;
+  font-size: 16px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* For interactive sliders: (optional, just for demo) */
+.slider {
+  margin-top: 10px;
+}
