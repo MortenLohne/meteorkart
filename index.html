@@ -11,30 +11,34 @@
   <body>
     <div id="map"></div>
 
-    <div class="abs t-15 l-60 z-top card w-450">
-      <label class="label-block">Vis meteorer i tidsrommet:</label>
-      <div id="time-slider" class="slider"></div>
-    </div>
+    <div class="controls abs t-0 l-0 z-top">
+      <div class="card w-450">
+        <label class="label-block"
+          >Vis meteorer i tidsrommet: <span id="time-value"></span
+        ></label>
+        <div id="time-slider" class="slider"></div>
+      </div>
 
-    <div class="abs t-85 l-10 z-top card w-300">
-      <label class="label-block">----- Starthøyde:</label>
-      <div id="start-height-slider" class="slider"></div>
-    </div>
+      <div class="card w-300">
+        <label class="label-block"
+          >Starthøyde: <span id="start-height-value"></span
+        ></label>
+        <div id="start-height-slider" class="slider"></div>
+      </div>
 
-    <div class="abs t-160 l-10 z-top card w-300">
-      <label class="label-block">----- Slutthøyde:</label>
-      <div id="end-height-slider" class="slider"></div>
-    </div>
+      <div class="card w-300">
+        <label class="label-block"
+          >Slutthøyde: <span id="end-height-value"></span
+        ></label>
+        <div id="end-height-slider" class="slider"></div>
+      </div>
 
-    <div class="abs t-235 l-10 z-top card w-300">
-      <label class="label-block">-- Eksentrisitet:</label>
-      <div id="eccentricity-slider" class="slider"></div>
-    </div>
-
-    <!-- Info/credit box -->
-    <div class="abs b-10 l-10 z-top info-box">
-      Dataen er hentet fra
-      <a href="http://norskmeteornettverk.no">Norsk Meteornettverk</a>.
+      <div class="card w-300">
+        <label class="label-block"
+          >Eksentrisitet: <span id="eccentricity-value"></span
+        ></label>
+        <div id="eccentricity-slider" class="slider"></div>
+      </div>
     </div>
   </body>
 </html>

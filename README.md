@@ -15,4 +15,4 @@ npm i && npm run dev
 
 Nettsiden kan serves med hvilken som helst webserver.
 
-Først, bygg prosjektet med `npm run build`, så åpne webserver i dist. F.eks. med Python: `cd dist && python3 -m http.server`.
+Først, bygg prosjektet med `npm run build`, så åpne webserver i `dist`-mappen. F.eks. med Python: `cd dist && python3 -m http.server`.
