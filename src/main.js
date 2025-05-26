@@ -542,7 +542,7 @@ Promise.resolve(data).then(async (data) => {
             <strong>Slutthøgde:</strong> ${format(atm.endHeight)} km<br>
             <strong>Eksentrisitet:</strong> ${eccentricity}<br/>
             <strong>Observert av:</strong> ${observedBy}<br>
-            <a href="${url}/">Se mer</a>`
+            <a href="${url}/" target="_blank">Se mer</a>`
           )
           .addTo(map);
       }
