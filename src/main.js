@@ -1,21 +1,13 @@
 import maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import "./global.css";
+import { calculateBearing, formatTimestamp, wgs84ToWebMercator } from "./utils";
 import noUiSlider from "nouislider";
 import "nouislider/dist/nouislider.css";
+import { quadtree } from "d3-quadtree";
 
 import data from "/static/meteors.json";
-
-function formatTimestamp(ts) {
-  if (typeof ts !== "number" || isNaN(ts)) return "--";
-  const date = new Date(ts * 1000);
-  if (isNaN(date.getTime())) return "--";
-  return (
-    date.toISOString().split("T")[0] +
-    " " +
-    date.toISOString().split("T")[1].slice(0, 5)
-  );
-}
+import { throttle } from "lodash-es";
 
 const map = new maplibregl.Map({
   container: "map",
@@ -47,11 +39,19 @@ const map = new maplibregl.Map({
         source: "osm",
       },
     ],
+    glyphs: "/static/{fontstack}/{range}.pbf",
   },
 });
 
+map.loadImage("/static/icons/triangle.png").then((image) => {
+  map.addImage("triangle", image.data, { sdf: true });
+});
+
+map.loadImage("/static/icons/square.png").then((image) => {
+  map.addImage("square", image.data, { sdf: true });
+});
+
 let allMeteorData = [];
-let markersAndLines = [];
 
 const defaultStartTime = new Date("2025-01-01T00:00:00Z").valueOf() / 1000;
 let startTime = defaultStartTime;
@@ -62,6 +62,11 @@ let minEndHeight = 0;
 let maxEndHeight = 150;
 let minEccentricity = 0;
 let maxEccentricity = Number.MAX_VALUE;
+
+let observationPointsQuadtree = quadtree()
+  .x((d) => d.properties.x)
+  .y((d) => d.properties.y)
+  .addAll([]);
 
 Promise.resolve(data).then(async (data) => {
   allMeteorData = data;
@@ -74,6 +79,7 @@ Promise.resolve(data).then(async (data) => {
 
     data.forEach((event) => {
       const atm = event.atmosphericData;
+
       if (
         atm &&
         atm.startPositionNorth &&
@@ -81,17 +87,32 @@ Promise.resolve(data).then(async (data) => {
         atm.endPositionNorth &&
         atm.endPositionEast
       ) {
+        const bearing = calculateBearing(
+          atm.startPositionNorth,
+          atm.startPositionEast,
+          atm.endPositionNorth,
+          atm.endPositionEast
+        );
+
+        const xyCoordinates = wgs84ToWebMercator(
+          atm.endPositionEast,
+          atm.endPositionNorth
+        );
+
         observationPointsFeatures.push({
           type: "Feature",
           geometry: {
             type: "Point",
-            coordinates: [atm.startPositionEast, atm.startPositionNorth], // lng, lat
+            coordinates: [atm.endPositionEast, atm.endPositionNorth], // lng, lat
           },
           properties: {
             eventId: event.id,
             observationStartTime: Math.min(
               ...event.observations.map((d) => d.observationStartTime)
             ),
+            bearing,
+            x: xyCoordinates.x,
+            y: xyCoordinates.y,
             ...atm,
             ...event.orbitalData,
           },
@@ -160,10 +181,9 @@ Promise.resolve(data).then(async (data) => {
 
   const minTime = Math.min(...allTimes);
   const maxTime = Math.max(...allTimes);
-  startTime = minTime;
   endTime = maxTime;
 
-  function filterAndRender() {
+  function rawFilterAndRender() {
     const observationFilter = [
       "all",
       [">=", ["get", "observationStartTime"], startTime],
@@ -230,7 +250,31 @@ Promise.resolve(data).then(async (data) => {
       }),
     };
     map.getSource("stations").setData(newStationsGeoJSON);
+
+    // Update quadtree with filtered observation points
+    const filteredObservationPoints =
+      sources.observation_points.features.filter((feature) => {
+        const props = feature.properties;
+        return (
+          props.observationStartTime >= startTime &&
+          props.observationStartTime <= endTime &&
+          props.startHeight >= minStartHeight &&
+          props.startHeight <= maxStartHeight &&
+          props.endHeight >= minEndHeight &&
+          props.endHeight <= maxEndHeight &&
+          (props.eccentricity === undefined ||
+            (props.eccentricity >= minEccentricity &&
+              props.eccentricity <= maxEccentricity))
+        );
+      });
+
+    observationPointsQuadtree = quadtree()
+      .x((d) => d.properties.x)
+      .y((d) => d.properties.y)
+      .addAll(filteredObservationPoints);
   }
+
+  let filterAndRender = throttle(rawFilterAndRender, 70);
 
   await new Promise((resolve) => map.once("load", resolve));
 
@@ -246,19 +290,6 @@ Promise.resolve(data).then(async (data) => {
   map.addSource("observation_tracks", {
     type: "geojson",
     data: sources.observation_tracks,
-  });
-
-  map.addLayer({
-    id: "stations-layer",
-    type: "circle",
-    source: "stations",
-    paint: {
-      "circle-radius": 8,
-      "circle-color": "#a00",
-      "circle-stroke-width": 2,
-      "circle-stroke-color": "#fff",
-      "circle-opacity": 0.7,
-    },
   });
 
   map.addLayer({
@@ -289,27 +320,33 @@ Promise.resolve(data).then(async (data) => {
         200,
       ],
       // Transition from heatmap to circle layer by zoom level
-      "heatmap-opacity": ["interpolate", ["linear"], ["zoom"], 7, 0.33, 9, 0],
+      "heatmap-opacity": ["interpolate", ["linear"], ["zoom"], 5, 0.33, 6, 0],
     },
   });
 
   map.addLayer({
     id: "observation-points-layer",
-    type: "circle",
+    type: "symbol",
     source: "observation_points",
-    paint: {
-      "circle-radius": [
+    layout: {
+      "icon-image": "triangle",
+      "icon-size": [
         "interpolate",
         ["exponential", 2],
         ["zoom"],
         0,
-        2,
-        12,
-        14,
+        0.08,
+        8,
+        0.4,
         20,
-        1000,
+        10,
       ],
-      "circle-color": "blue",
+      "icon-allow-overlap": true,
+      "icon-rotate": ["get", "bearing"],
+    },
+    paint: {
+      "icon-color": "blue",
+      "icon-opacity": ["interpolate", ["linear"], ["zoom"], 5, 0, 6, 1],
     },
   });
 
@@ -328,13 +365,38 @@ Promise.resolve(data).then(async (data) => {
         9,
         2,
       ],
-      "line-opacity": 0.8,
+      "line-opacity": ["interpolate", ["linear"], ["zoom"], 3, 0, 6, 1],
+    },
+  });
+
+  map.addLayer({
+    id: "stations-labels",
+    type: "symbol",
+    source: "stations",
+    layout: {
+      "text-field": "{stationCode}",
+      "text-font": ["lato"],
+      "text-size": ["interpolate", ["linear"], ["zoom"], 0, 10, 15, 20],
+
+      "text-offset": [0.5, 0],
+      "text-anchor": "left",
+      "icon-image": "square",
+      "icon-size": ["interpolate", ["linear"], ["zoom"], 0, 0.15, 15, 0.3],
+
+      "icon-allow-overlap": true,
+    },
+    paint: {
+      "text-color": "#000",
+      "icon-halo-width": 0.8,
+      "icon-halo-color": "#fff",
+      "text-halo-color": "#fff",
+      "text-halo-width": 1.3,
     },
   });
 
   const timeSlider = document.getElementById("time-slider");
   noUiSlider.create(timeSlider, {
-    start: [minTime, maxTime],
+    start: [startTime, endTime],
     connect: true,
     step: 7 * 24 * 60 * 60, // 1 week
     range: { min: minTime, max: maxTime },
@@ -374,7 +436,7 @@ Promise.resolve(data).then(async (data) => {
 
     document.getElementById(
       "start-height-value"
-    ).textContent = `${minStartHeight}–${maxStartHeight} m`;
+    ).textContent = `${minStartHeight}–${maxStartHeight} km`;
     filterAndRender();
   });
 
@@ -390,7 +452,7 @@ Promise.resolve(data).then(async (data) => {
     [minEndHeight, maxEndHeight] = values.map(Number);
     document.getElementById(
       "end-height-value"
-    ).textContent = `${minEndHeight}–${maxEndHeight} m`;
+    ).textContent = `${minEndHeight}–${maxEndHeight} km`;
     filterAndRender();
   });
 
@@ -433,5 +495,57 @@ Promise.resolve(data).then(async (data) => {
       minEccentricity
     )}–${fmtInf(maxEccentricity)}`;
     filterAndRender();
+  });
+
+  // map.on("mousemove", (e) => {
+  //   const point = wgs84ToWebMercator(e.lngLat.lng, e.lngLat.lat);
+  //   const nearest = observationPointsQuadtree.find(point.x, point.y);
+  //   console.log(nearest);
+  // });
+
+  map.on("click", (e) => {
+    const point = wgs84ToWebMercator(e.lngLat.lng, e.lngLat.lat);
+
+    const nearest = observationPointsQuadtree.find(point.x, point.y);
+
+    if (nearest) {
+      const properties = nearest.properties;
+      const eventId = properties.eventId;
+      const event = allMeteorData.find((e) => e.id === eventId);
+      if (event) {
+        const atm = event.atmosphericData;
+        const obsTime = properties.observationStartTime;
+        const obsTimeFormatted = formatTimestamp(obsTime);
+        const format = Intl.NumberFormat("nb-NO", {
+          minimumFractionDigits: 1,
+          maximumFractionDigits: 1,
+        }).format;
+
+        const observedBy = Array.from(
+          new Set(event.observations.map((obs) => obs.stationCode))
+        )
+          .map((obs) => `<code>${obs}</code>`)
+          .join(", ");
+
+        const url = `https://norskmeteornettverk.no/meteor/${eventId.replace(
+          "_",
+          "/"
+        )}/`;
+        let eccentricity = format(event.orbitalData?.eccentricity) ?? "N/A";
+
+        new maplibregl.Popup()
+          .setLngLat(nearest.geometry.coordinates)
+          .setHTML(
+            `
+            <h3>${obsTimeFormatted}</h3>
+            <strong>Starthøgde:</strong> ${format(atm.startHeight)} km<br>
+            <strong>Slutthøgde:</strong> ${format(atm.endHeight)} km<br>
+            <strong>Eksentrisitet:</strong> ${eccentricity}<br/>
+            <strong>Observert av:</strong> ${observedBy}<br>
+            <a href="${url}/">Se mer</a>`
+          )
+          .addTo(map);
+      }
+    }
   });
 });

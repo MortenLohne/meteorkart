@@ -1,3 +1,4 @@
+/* CSS Reset */
 *,
 *::before,
 *::after {
@@ -29,6 +30,17 @@ button,
 textarea,
 select {
   font: inherit;
+}
+
+/* -- Custom Styles -- */
+
+code {
+  color: #f4f4f4;
+  background-color: #333;
+  font-weight: 600;
+  padding: 2px 4px;
+  border-radius: 3px;
+  box-decoration-break: clone;
 }
 
 #map {

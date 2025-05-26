@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "d3-quadtree": "^3.0.1",
+    "lodash-es": "^4.17.21",
     "nouislider": "^15.8.1"
   }
 }
